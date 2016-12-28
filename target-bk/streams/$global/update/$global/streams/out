@@ -1,0 +1,1084 @@
+[0m[[0minfo[0m] [0mUpdating {file:/home/aaronlevin/dev/soundcloud/scala-gitrev/}scala-gitrev...[0m
+[0m[[0mdebug[0m] [0m:: resolving dependencies :: default#scala-gitrev_2.10;06f69295103b28836067bcd604a604be0b071577-SNAPSHOT[0m
+[0m[[0mdebug[0m] [0m	confs: [compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool, scalafmt, ensime-internal][0m
+[0m[[0mdebug[0m] [0m	validate = true[0m
+[0m[[0mdebug[0m] [0m	refresh = false[0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'compile'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#scala-gitrev_2.10;06f69295103b28836067bcd604a604be0b071577-SNAPSHOT [compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scala-gitrev_2.10;06f69295103b28836067bcd604a604be0b071577-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [compile->default(compile)][0m
+[0m[[0minfo[0m] [0mResolving org.scala-lang#scala-library;2.10.6 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.scala-lang#scala-library;2.10.6 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scala-lang#scala-library;2.10.6[0m
+[0m[[0mdebug[0m] [0m	found org.scala-lang#scala-library;2.10.6 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m	[2.10.6] org.scala-lang#scala-library;2.10.6[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scala-gitrev_2.10;06f69295103b28836067bcd604a604be0b071577-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scala-gitrev_2.10;06f69295103b28836067bcd604a604be0b071577-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scala-gitrev_2.10;06f69295103b28836067bcd604a604be0b071577-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scala-gitrev_2.10;06f69295103b28836067bcd604a604be0b071577-SNAPSHOT->org.typelevel#macro-compat_2.10;1.1.1 [compile->default(compile)][0m
+[0m[[0minfo[0m] [0mResolving org.typelevel#macro-compat_2.10;1.1.1 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.typelevel#macro-compat_2.10;1.1.1 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.typelevel#macro-compat_2.10;1.1.1[0m
+[0m[[0mdebug[0m] [0m	found org.typelevel#macro-compat_2.10;1.1.1 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scala-gitrev_2.10;06f69295103b28836067bcd604a604be0b071577-SNAPSHOT->org.typelevel#macro-compat_2.10;1.1.1 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scala-gitrev_2.10;06f69295103b28836067bcd604a604be0b071577-SNAPSHOT->org.typelevel#macro-compat_2.10;1.1.1 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.typelevel#macro-compat_2.10;1.1.1->org.scala-lang#scala-library;2.10.6 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.typelevel#macro-compat_2.10;1.1.1->org.scala-lang#scala-library;2.10.6 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.typelevel#macro-compat_2.10;1.1.1->org.scala-lang#scala-library;2.10.6 [compile->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.typelevel#macro-compat_2.10;1.1.1->org.scala-lang#scala-library;2.10.6 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.typelevel#macro-compat_2.10;1.1.1->org.scalamacros#quasiquotes_2.10;2.1.0 [compile->master(compile)][0m
+[0m[[0minfo[0m] [0mResolving org.scalamacros#quasiquotes_2.10;2.1.0 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.scalamacros#quasiquotes_2.10;2.1.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scalamacros#quasiquotes_2.10;2.1.0[0m
+[0m[[0mdebug[0m] [0m	found org.scalamacros#quasiquotes_2.10;2.1.0 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.typelevel#macro-compat_2.10;1.1.1->org.scalamacros#quasiquotes_2.10;2.1.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalamacros#quasiquotes_2.10;2.1.0->org.scala-lang#scala-library;2.10.4 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalamacros#quasiquotes_2.10;2.1.0->org.scala-lang#scala-library;2.10.6 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalamacros#quasiquotes_2.10;2.1.0->org.scala-lang#scala-library;2.10.4 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalamacros#quasiquotes_2.10;2.1.0->org.scala-lang#scala-library;2.10.6 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalamacros#quasiquotes_2.10;2.1.0->org.scala-lang#scala-reflect;2.10.4 [compile->master(compile)][0m
+[0m[[0minfo[0m] [0mResolving org.scala-lang#scala-reflect;2.10.4 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.scala-lang#scala-reflect;2.10.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scala-lang#scala-reflect;2.10.4[0m
+[0m[[0mdebug[0m] [0m	found org.scala-lang#scala-reflect;2.10.4 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m	[2.10.4] org.scala-lang#scala-reflect;2.10.4[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalamacros#quasiquotes_2.10;2.1.0->org.scala-lang#scala-reflect;2.10.4 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.10.4->org.scala-lang#scala-library;2.10.4 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.10.4->org.scala-lang#scala-library;2.10.6 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.10.4->org.scala-lang#scala-library;2.10.4 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.10.4->org.scala-lang#scala-library;2.10.6 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.typelevel#macro-compat_2.10;1.1.1->org.scalamacros#quasiquotes_2.10;2.1.0 [compile->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.typelevel#macro-compat_2.10;1.1.1->org.scalamacros#quasiquotes_2.10;2.1.0 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalamacros#quasiquotes_2.10;2.1.0->org.scala-lang#scala-library;2.10.4 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalamacros#quasiquotes_2.10;2.1.0->org.scala-lang#scala-library;2.10.6 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalamacros#quasiquotes_2.10;2.1.0->org.scala-lang#scala-library;2.10.6 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalamacros#quasiquotes_2.10;2.1.0->org.scala-lang#scala-reflect;2.10.4 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalamacros#quasiquotes_2.10;2.1.0->org.scala-lang#scala-reflect;2.10.4 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.10.4->org.scala-lang#scala-library;2.10.4 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.10.4->org.scala-lang#scala-library;2.10.6 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.10.4->org.scala-lang#scala-library;2.10.6 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.typelevel#macro-compat_2.10;1.1.1->org.scala-lang#scala-library;2.10.6 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.typelevel#macro-compat_2.10;1.1.1->org.scala-lang#scala-library;2.10.6 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.typelevel#macro-compat_2.10;1.1.1->org.scalamacros#quasiquotes_2.10;2.1.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.typelevel#macro-compat_2.10;1.1.1->org.scalamacros#quasiquotes_2.10;2.1.0 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scala-gitrev_2.10;06f69295103b28836067bcd604a604be0b071577-SNAPSHOT->org.typelevel#macro-compat_2.10;1.1.1 [compile->master][0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'runtime'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#scala-gitrev_2.10;06f69295103b28836067bcd604a604be0b071577-SNAPSHOT [runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#scala-gitrev_2.10;06f69295103b28836067bcd604a604be0b071577-SNAPSHOT [compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scala-gitrev_2.10;06f69295103b28836067bcd604a604be0b071577-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scala-gitrev_2.10;06f69295103b28836067bcd604a604be0b071577-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scala-gitrev_2.10;06f69295103b28836067bcd604a604be0b071577-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scala-gitrev_2.10;06f69295103b28836067bcd604a604be0b071577-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scala-gitrev_2.10;06f69295103b28836067bcd604a604be0b071577-SNAPSHOT->org.typelevel#macro-compat_2.10;1.1.1 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scala-gitrev_2.10;06f69295103b28836067bcd604a604be0b071577-SNAPSHOT->org.typelevel#macro-compat_2.10;1.1.1 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scala-gitrev_2.10;06f69295103b28836067bcd604a604be0b071577-SNAPSHOT->org.typelevel#macro-compat_2.10;1.1.1 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.typelevel#macro-compat_2.10;1.1.1->org.scala-lang#scala-library;2.10.6 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.typelevel#macro-compat_2.10;1.1.1->org.scala-lang#scala-library;2.10.6 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.typelevel#macro-compat_2.10;1.1.1->org.scalamacros#quasiquotes_2.10;2.1.0 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.typelevel#macro-compat_2.10;1.1.1->org.scalamacros#quasiquotes_2.10;2.1.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalamacros#quasiquotes_2.10;2.1.0->org.scala-lang#scala-library;2.10.4 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalamacros#quasiquotes_2.10;2.1.0->org.scala-lang#scala-library;2.10.6 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalamacros#quasiquotes_2.10;2.1.0->org.scala-lang#scala-library;2.10.4 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalamacros#quasiquotes_2.10;2.1.0->org.scala-lang#scala-library;2.10.6 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalamacros#quasiquotes_2.10;2.1.0->org.scala-lang#scala-reflect;2.10.4 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalamacros#quasiquotes_2.10;2.1.0->org.scala-lang#scala-reflect;2.10.4 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.10.4->org.scala-lang#scala-library;2.10.4 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.10.4->org.scala-lang#scala-library;2.10.6 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.10.4->org.scala-lang#scala-library;2.10.4 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.10.4->org.scala-lang#scala-library;2.10.6 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.typelevel#macro-compat_2.10;1.1.1->org.scala-lang#scala-library;2.10.6 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.typelevel#macro-compat_2.10;1.1.1->org.scala-lang#scala-library;2.10.6 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.typelevel#macro-compat_2.10;1.1.1->org.scalamacros#quasiquotes_2.10;2.1.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.typelevel#macro-compat_2.10;1.1.1->org.scalamacros#quasiquotes_2.10;2.1.0 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalamacros#quasiquotes_2.10;2.1.0->org.scala-lang#scala-library;2.10.4 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalamacros#quasiquotes_2.10;2.1.0->org.scala-lang#scala-library;2.10.6 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalamacros#quasiquotes_2.10;2.1.0->org.scala-lang#scala-library;2.10.6 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalamacros#quasiquotes_2.10;2.1.0->org.scala-lang#scala-reflect;2.10.4 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalamacros#quasiquotes_2.10;2.1.0->org.scala-lang#scala-reflect;2.10.4 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.10.4->org.scala-lang#scala-library;2.10.4 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.10.4->org.scala-lang#scala-library;2.10.6 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.10.4->org.scala-lang#scala-library;2.10.6 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scala-gitrev_2.10;06f69295103b28836067bcd604a604be0b071577-SNAPSHOT->org.typelevel#macro-compat_2.10;1.1.1 [compile->master][0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'test'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#scala-gitrev_2.10;06f69295103b28836067bcd604a604be0b071577-SNAPSHOT [test][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#scala-gitrev_2.10;06f69295103b28836067bcd604a604be0b071577-SNAPSHOT [runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#scala-gitrev_2.10;06f69295103b28836067bcd604a604be0b071577-SNAPSHOT [compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scala-gitrev_2.10;06f69295103b28836067bcd604a604be0b071577-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scala-gitrev_2.10;06f69295103b28836067bcd604a604be0b071577-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scala-gitrev_2.10;06f69295103b28836067bcd604a604be0b071577-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scala-gitrev_2.10;06f69295103b28836067bcd604a604be0b071577-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scala-gitrev_2.10;06f69295103b28836067bcd604a604be0b071577-SNAPSHOT->org.typelevel#macro-compat_2.10;1.1.1 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scala-gitrev_2.10;06f69295103b28836067bcd604a604be0b071577-SNAPSHOT->org.typelevel#macro-compat_2.10;1.1.1 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scala-gitrev_2.10;06f69295103b28836067bcd604a604be0b071577-SNAPSHOT->org.typelevel#macro-compat_2.10;1.1.1 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.typelevel#macro-compat_2.10;1.1.1->org.scala-lang#scala-library;2.10.6 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.typelevel#macro-compat_2.10;1.1.1->org.scala-lang#scala-library;2.10.6 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.typelevel#macro-compat_2.10;1.1.1->org.scalamacros#quasiquotes_2.10;2.1.0 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.typelevel#macro-compat_2.10;1.1.1->org.scalamacros#quasiquotes_2.10;2.1.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalamacros#quasiquotes_2.10;2.1.0->org.scala-lang#scala-library;2.10.4 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalamacros#quasiquotes_2.10;2.1.0->org.scala-lang#scala-library;2.10.6 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalamacros#quasiquotes_2.10;2.1.0->org.scala-lang#scala-library;2.10.4 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalamacros#quasiquotes_2.10;2.1.0->org.scala-lang#scala-library;2.10.6 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalamacros#quasiquotes_2.10;2.1.0->org.scala-lang#scala-reflect;2.10.4 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalamacros#quasiquotes_2.10;2.1.0->org.scala-lang#scala-reflect;2.10.4 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.10.4->org.scala-lang#scala-library;2.10.4 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.10.4->org.scala-lang#scala-library;2.10.6 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.10.4->org.scala-lang#scala-library;2.10.4 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.10.4->org.scala-lang#scala-library;2.10.6 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.typelevel#macro-compat_2.10;1.1.1->org.scala-lang#scala-library;2.10.6 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.typelevel#macro-compat_2.10;1.1.1->org.scala-lang#scala-library;2.10.6 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.typelevel#macro-compat_2.10;1.1.1->org.scalamacros#quasiquotes_2.10;2.1.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.typelevel#macro-compat_2.10;1.1.1->org.scalamacros#quasiquotes_2.10;2.1.0 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalamacros#quasiquotes_2.10;2.1.0->org.scala-lang#scala-library;2.10.4 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalamacros#quasiquotes_2.10;2.1.0->org.scala-lang#scala-library;2.10.6 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalamacros#quasiquotes_2.10;2.1.0->org.scala-lang#scala-library;2.10.6 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalamacros#quasiquotes_2.10;2.1.0->org.scala-lang#scala-reflect;2.10.4 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalamacros#quasiquotes_2.10;2.1.0->org.scala-lang#scala-reflect;2.10.4 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.10.4->org.scala-lang#scala-library;2.10.4 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.10.4->org.scala-lang#scala-library;2.10.6 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.10.4->org.scala-lang#scala-library;2.10.6 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scala-gitrev_2.10;06f69295103b28836067bcd604a604be0b071577-SNAPSHOT->org.typelevel#macro-compat_2.10;1.1.1 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scala-gitrev_2.10;06f69295103b28836067bcd604a604be0b071577-SNAPSHOT->org.scalacheck#scalacheck_2.10;1.13.4 [test->default(compile)][0m
+[0m[[0minfo[0m] [0mResolving org.scalacheck#scalacheck_2.10;1.13.4 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.scalacheck#scalacheck_2.10;1.13.4 {test=[default(compile)]}[0m
+[0m[[0minfo[0m] [0mResolving org.scalacheck#scalacheck_2.10;1.13.4 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain-delegate: Checking cache for: dependency: org.scalacheck#scalacheck_2.10;1.13.4 {test=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0m		tried /home/aaronlevin/.ivy2/local/org.scalacheck/scalacheck_2.10/1.13.4/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	local: no ivy file found for org.scalacheck#scalacheck_2.10;1.13.4[0m
+[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/org/scalacheck/scalacheck_2.10/1.13.4/scalacheck_2.10-1.13.4.pom[0m
+[0m[[0mdebug[0m] [0m	public: found md file for org.scalacheck#scalacheck_2.10;1.13.4[0m
+[0m[[0mdebug[0m] [0m		=> https://repo1.maven.org/maven2/org/scalacheck/scalacheck_2.10/1.13.4/scalacheck_2.10-1.13.4.pom (1.13.4)[0m
+[0m[[0mdebug[0m] [0mdownloading https://repo1.maven.org/maven2/org/scalacheck/scalacheck_2.10/1.13.4/scalacheck_2.10-1.13.4.pom ...[0m
+[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/scalacheck/scalacheck_2.10/1.13.4/scalacheck_2.10-1.13.4.pom[0m
+[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/scalacheck/scalacheck_2.10/1.13.4/scalacheck_2.10-1.13.4.pom.sha1[0m
+[0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/org/scalacheck/scalacheck_2.10/1.13.4/scalacheck_2.10-1.13.4.pom[0m
+[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.scalacheck#scalacheck_2.10;1.13.4!scalacheck_2.10.pom(pom.original) (815ms)[0m
+[0m[[0mdebug[0m] [0m		tried /home/aaronlevin/.ivy2/local/org.scalacheck/scalacheck_2.10/1.13.4/jars/scalacheck_2.10.jar[0m
+[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/org/scalacheck/scalacheck_2.10/1.13.4/scalacheck_2.10-1.13.4.jar[0m
+[0m[[0mdebug[0m] [0m	found org.scalacheck#scalacheck_2.10;1.13.4 in public[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scala-gitrev_2.10;06f69295103b28836067bcd604a604be0b071577-SNAPSHOT->org.scalacheck#scalacheck_2.10;1.13.4 [test->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scala-gitrev_2.10;06f69295103b28836067bcd604a604be0b071577-SNAPSHOT->org.scalacheck#scalacheck_2.10;1.13.4 [test->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalacheck#scalacheck_2.10;1.13.4->org.scala-lang#scala-library;2.10.6 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalacheck#scalacheck_2.10;1.13.4->org.scala-lang#scala-library;2.10.6 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalacheck#scalacheck_2.10;1.13.4->org.scala-sbt#test-interface;1.0 [compile->master(compile)][0m
+[0m[[0minfo[0m] [0mResolving org.scala-sbt#test-interface;1.0 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.scala-sbt#test-interface;1.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scala-sbt#test-interface;1.0[0m
+[0m[[0mdebug[0m] [0m	found org.scala-sbt#test-interface;1.0 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalacheck#scalacheck_2.10;1.13.4->org.scala-sbt#test-interface;1.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalacheck#scalacheck_2.10;1.13.4->org.scala-sbt#test-interface;1.0 [compile->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalacheck#scalacheck_2.10;1.13.4->org.scala-sbt#test-interface;1.0 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalacheck#scalacheck_2.10;1.13.4->org.scala-lang#scala-library;2.10.6 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalacheck#scalacheck_2.10;1.13.4->org.scala-lang#scala-library;2.10.6 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalacheck#scalacheck_2.10;1.13.4->org.scala-sbt#test-interface;1.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalacheck#scalacheck_2.10;1.13.4->org.scala-sbt#test-interface;1.0 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scala-gitrev_2.10;06f69295103b28836067bcd604a604be0b071577-SNAPSHOT->org.scalacheck#scalacheck_2.10;1.13.4 [test->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scala-gitrev_2.10;06f69295103b28836067bcd604a604be0b071577-SNAPSHOT->org.scalatest#scalatest_2.10;3.0.1 [test->default(compile)][0m
+[0m[[0minfo[0m] [0mResolving org.scalatest#scalatest_2.10;3.0.1 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.scalatest#scalatest_2.10;3.0.1 {test=[default(compile)]}[0m
+[0m[[0minfo[0m] [0mResolving org.scalatest#scalatest_2.10;3.0.1 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain-delegate: Checking cache for: dependency: org.scalatest#scalatest_2.10;3.0.1 {test=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0m		tried /home/aaronlevin/.ivy2/local/org.scalatest/scalatest_2.10/3.0.1/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	local: no ivy file found for org.scalatest#scalatest_2.10;3.0.1[0m
+[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/org/scalatest/scalatest_2.10/3.0.1/scalatest_2.10-3.0.1.pom[0m
+[0m[[0mdebug[0m] [0m	public: found md file for org.scalatest#scalatest_2.10;3.0.1[0m
+[0m[[0mdebug[0m] [0m		=> https://repo1.maven.org/maven2/org/scalatest/scalatest_2.10/3.0.1/scalatest_2.10-3.0.1.pom (3.0.1)[0m
+[0m[[0mdebug[0m] [0mdownloading https://repo1.maven.org/maven2/org/scalatest/scalatest_2.10/3.0.1/scalatest_2.10-3.0.1.pom ...[0m
+[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/scalatest/scalatest_2.10/3.0.1/scalatest_2.10-3.0.1.pom[0m
+[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/scalatest/scalatest_2.10/3.0.1/scalatest_2.10-3.0.1.pom.sha1[0m
+[0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/org/scalatest/scalatest_2.10/3.0.1/scalatest_2.10-3.0.1.pom[0m
+[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.scalatest#scalatest_2.10;3.0.1!scalatest_2.10.pom(pom.original) (548ms)[0m
+[0m[[0mdebug[0m] [0m		tried /home/aaronlevin/.ivy2/local/org.scalatest/scalatest_2.10/3.0.1/bundles/scalatest_2.10.jar[0m
+[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/org/scalatest/scalatest_2.10/3.0.1/scalatest_2.10-3.0.1.jar[0m
+[0m[[0mdebug[0m] [0m	found org.scalatest#scalatest_2.10;3.0.1 in public[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scala-gitrev_2.10;06f69295103b28836067bcd604a604be0b071577-SNAPSHOT->org.scalatest#scalatest_2.10;3.0.1 [test->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scala-gitrev_2.10;06f69295103b28836067bcd604a604be0b071577-SNAPSHOT->org.scalatest#scalatest_2.10;3.0.1 [test->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalatest#scalatest_2.10;3.0.1->org.scala-lang#scala-library;2.10.6 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalatest#scalatest_2.10;3.0.1->org.scala-lang#scala-library;2.10.6 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalatest#scalatest_2.10;3.0.1->org.scalactic#scalactic_2.10;3.0.1 [compile->master(compile)][0m
+[0m[[0minfo[0m] [0mResolving org.scalactic#scalactic_2.10;3.0.1 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.scalactic#scalactic_2.10;3.0.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0minfo[0m] [0mResolving org.scalactic#scalactic_2.10;3.0.1 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain-delegate: Checking cache for: dependency: org.scalactic#scalactic_2.10;3.0.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0m		tried /home/aaronlevin/.ivy2/local/org.scalactic/scalactic_2.10/3.0.1/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	local: no ivy file found for org.scalactic#scalactic_2.10;3.0.1[0m
+[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/org/scalactic/scalactic_2.10/3.0.1/scalactic_2.10-3.0.1.pom[0m
+[0m[[0mdebug[0m] [0m	public: found md file for org.scalactic#scalactic_2.10;3.0.1[0m
+[0m[[0mdebug[0m] [0m		=> https://repo1.maven.org/maven2/org/scalactic/scalactic_2.10/3.0.1/scalactic_2.10-3.0.1.pom (3.0.1)[0m
+[0m[[0mdebug[0m] [0mdownloading https://repo1.maven.org/maven2/org/scalactic/scalactic_2.10/3.0.1/scalactic_2.10-3.0.1.pom ...[0m
+[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/scalactic/scalactic_2.10/3.0.1/scalactic_2.10-3.0.1.pom[0m
+[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/scalactic/scalactic_2.10/3.0.1/scalactic_2.10-3.0.1.pom.sha1[0m
+[0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/org/scalactic/scalactic_2.10/3.0.1/scalactic_2.10-3.0.1.pom[0m
+[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.scalactic#scalactic_2.10;3.0.1!scalactic_2.10.pom(pom.original) (822ms)[0m
+[0m[[0mdebug[0m] [0m		tried /home/aaronlevin/.ivy2/local/org.scalactic/scalactic_2.10/3.0.1/bundles/scalactic_2.10.jar[0m
+[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/org/scalactic/scalactic_2.10/3.0.1/scalactic_2.10-3.0.1.jar[0m
+[0m[[0mdebug[0m] [0m	found org.scalactic#scalactic_2.10;3.0.1 in public[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalatest#scalatest_2.10;3.0.1->org.scalactic#scalactic_2.10;3.0.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalactic#scalactic_2.10;3.0.1->org.scala-lang#scala-library;2.10.6 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalactic#scalactic_2.10;3.0.1->org.scala-lang#scala-library;2.10.6 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalactic#scalactic_2.10;3.0.1->org.scala-lang#scala-reflect;2.10.6 [compile->master(compile)][0m
+[0m[[0minfo[0m] [0mResolving org.scala-lang#scala-reflect;2.10.6 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.scala-lang#scala-reflect;2.10.6 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scala-lang#scala-reflect;2.10.6[0m
+[0m[[0mdebug[0m] [0m	found org.scala-lang#scala-reflect;2.10.6 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m	[2.10.6] org.scala-lang#scala-reflect;2.10.6[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalactic#scalactic_2.10;3.0.1->org.scala-lang#scala-reflect;2.10.6 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.10.6->org.scala-lang#scala-library;2.10.6 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.10.6->org.scala-lang#scala-library;2.10.6 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalactic#scalactic_2.10;3.0.1->org.scala-lang#scala-reflect;2.10.6 [compile->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalactic#scalactic_2.10;3.0.1->org.scala-lang#scala-reflect;2.10.6 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.10.6->org.scala-lang#scala-library;2.10.6 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.10.6->org.scala-lang#scala-library;2.10.6 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalatest#scalatest_2.10;3.0.1->org.scalactic#scalactic_2.10;3.0.1 [compile->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalatest#scalatest_2.10;3.0.1->org.scalactic#scalactic_2.10;3.0.1 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalactic#scalactic_2.10;3.0.1->org.scala-lang#scala-library;2.10.6 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalactic#scalactic_2.10;3.0.1->org.scala-lang#scala-library;2.10.6 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalactic#scalactic_2.10;3.0.1->org.scala-lang#scala-reflect;2.10.6 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalactic#scalactic_2.10;3.0.1->org.scala-lang#scala-reflect;2.10.6 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalatest#scalatest_2.10;3.0.1->org.scala-lang#scala-reflect;2.10.6 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalatest#scalatest_2.10;3.0.1->org.scala-lang#scala-reflect;2.10.6 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalatest#scalatest_2.10;3.0.1->org.scala-lang#scala-library;2.10.6 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalatest#scalatest_2.10;3.0.1->org.scala-lang#scala-library;2.10.6 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalatest#scalatest_2.10;3.0.1->org.scalactic#scalactic_2.10;3.0.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalatest#scalatest_2.10;3.0.1->org.scalactic#scalactic_2.10;3.0.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalatest#scalatest_2.10;3.0.1->org.scala-lang#scala-reflect;2.10.6 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalatest#scalatest_2.10;3.0.1->org.scala-lang#scala-reflect;2.10.6 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scala-gitrev_2.10;06f69295103b28836067bcd604a604be0b071577-SNAPSHOT->org.scalatest#scalatest_2.10;3.0.1 [test->master][0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'provided'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#scala-gitrev_2.10;06f69295103b28836067bcd604a604be0b071577-SNAPSHOT [provided][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scala-gitrev_2.10;06f69295103b28836067bcd604a604be0b071577-SNAPSHOT->org.scala-lang#scala-compiler;2.10.6 [provided->default(compile)][0m
+[0m[[0minfo[0m] [0mResolving org.scala-lang#scala-compiler;2.10.6 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.scala-lang#scala-compiler;2.10.6 {provided=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scala-lang#scala-compiler;2.10.6[0m
+[0m[[0mdebug[0m] [0m	found org.scala-lang#scala-compiler;2.10.6 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scala-gitrev_2.10;06f69295103b28836067bcd604a604be0b071577-SNAPSHOT->org.scala-lang#scala-compiler;2.10.6 [provided->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scala-gitrev_2.10;06f69295103b28836067bcd604a604be0b071577-SNAPSHOT->org.scala-lang#scala-compiler;2.10.6 [provided->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.6->org.scala-lang#scala-library;2.10.6 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.6->org.scala-lang#scala-library;2.10.6 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.6->org.scala-lang#scala-reflect;2.10.6 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.6->org.scala-lang#scala-reflect;2.10.6 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.10.6->org.scala-lang#scala-library;2.10.6 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.10.6->org.scala-lang#scala-library;2.10.6 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.6->org.scala-lang#scala-library;2.10.6 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.6->org.scala-lang#scala-library;2.10.6 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.6->org.scala-lang#scala-reflect;2.10.6 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.6->org.scala-lang#scala-reflect;2.10.6 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.10.6->org.scala-lang#scala-library;2.10.6 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.10.6->org.scala-lang#scala-library;2.10.6 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scala-gitrev_2.10;06f69295103b28836067bcd604a604be0b071577-SNAPSHOT->org.scala-lang#scala-compiler;2.10.6 [provided->master][0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'optional'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#scala-gitrev_2.10;06f69295103b28836067bcd604a604be0b071577-SNAPSHOT [optional][0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'compile-internal'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#scala-gitrev_2.10;06f69295103b28836067bcd604a604be0b071577-SNAPSHOT [compile-internal][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#scala-gitrev_2.10;06f69295103b28836067bcd604a604be0b071577-SNAPSHOT [compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scala-gitrev_2.10;06f69295103b28836067bcd604a604be0b071577-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scala-gitrev_2.10;06f69295103b28836067bcd604a604be0b071577-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scala-gitrev_2.10;06f69295103b28836067bcd604a604be0b071577-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scala-gitrev_2.10;06f69295103b28836067bcd604a604be0b071577-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scala-gitrev_2.10;06f69295103b28836067bcd604a604be0b071577-SNAPSHOT->org.typelevel#macro-compat_2.10;1.1.1 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scala-gitrev_2.10;06f69295103b28836067bcd604a604be0b071577-SNAPSHOT->org.typelevel#macro-compat_2.10;1.1.1 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scala-gitrev_2.10;06f69295103b28836067bcd604a604be0b071577-SNAPSHOT->org.typelevel#macro-compat_2.10;1.1.1 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.typelevel#macro-compat_2.10;1.1.1->org.scala-lang#scala-library;2.10.6 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.typelevel#macro-compat_2.10;1.1.1->org.scala-lang#scala-library;2.10.6 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.typelevel#macro-compat_2.10;1.1.1->org.scalamacros#quasiquotes_2.10;2.1.0 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.typelevel#macro-compat_2.10;1.1.1->org.scalamacros#quasiquotes_2.10;2.1.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalamacros#quasiquotes_2.10;2.1.0->org.scala-lang#scala-library;2.10.4 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalamacros#quasiquotes_2.10;2.1.0->org.scala-lang#scala-library;2.10.6 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalamacros#quasiquotes_2.10;2.1.0->org.scala-lang#scala-library;2.10.4 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalamacros#quasiquotes_2.10;2.1.0->org.scala-lang#scala-library;2.10.6 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalamacros#quasiquotes_2.10;2.1.0->org.scala-lang#scala-reflect;2.10.4 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalamacros#quasiquotes_2.10;2.1.0->org.scala-lang#scala-reflect;2.10.4 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.10.4->org.scala-lang#scala-library;2.10.4 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.10.4->org.scala-lang#scala-library;2.10.6 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.10.4->org.scala-lang#scala-library;2.10.4 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.10.4->org.scala-lang#scala-library;2.10.6 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.typelevel#macro-compat_2.10;1.1.1->org.scala-lang#scala-library;2.10.6 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.typelevel#macro-compat_2.10;1.1.1->org.scala-lang#scala-library;2.10.6 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.typelevel#macro-compat_2.10;1.1.1->org.scalamacros#quasiquotes_2.10;2.1.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.typelevel#macro-compat_2.10;1.1.1->org.scalamacros#quasiquotes_2.10;2.1.0 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalamacros#quasiquotes_2.10;2.1.0->org.scala-lang#scala-library;2.10.4 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalamacros#quasiquotes_2.10;2.1.0->org.scala-lang#scala-library;2.10.6 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalamacros#quasiquotes_2.10;2.1.0->org.scala-lang#scala-library;2.10.6 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalamacros#quasiquotes_2.10;2.1.0->org.scala-lang#scala-reflect;2.10.4 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalamacros#quasiquotes_2.10;2.1.0->org.scala-lang#scala-reflect;2.10.4 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.10.4->org.scala-lang#scala-library;2.10.4 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.10.4->org.scala-lang#scala-library;2.10.6 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.10.4->org.scala-lang#scala-library;2.10.6 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scala-gitrev_2.10;06f69295103b28836067bcd604a604be0b071577-SNAPSHOT->org.typelevel#macro-compat_2.10;1.1.1 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#scala-gitrev_2.10;06f69295103b28836067bcd604a604be0b071577-SNAPSHOT [optional][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#scala-gitrev_2.10;06f69295103b28836067bcd604a604be0b071577-SNAPSHOT [provided][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scala-gitrev_2.10;06f69295103b28836067bcd604a604be0b071577-SNAPSHOT->org.scala-lang#scala-compiler;2.10.6 [provided->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scala-gitrev_2.10;06f69295103b28836067bcd604a604be0b071577-SNAPSHOT->org.scala-lang#scala-compiler;2.10.6 [provided->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scala-gitrev_2.10;06f69295103b28836067bcd604a604be0b071577-SNAPSHOT->org.scala-lang#scala-compiler;2.10.6 [provided->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.6->org.scala-lang#scala-library;2.10.6 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.6->org.scala-lang#scala-library;2.10.6 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.6->org.scala-lang#scala-reflect;2.10.6 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.6->org.scala-lang#scala-reflect;2.10.6 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.10.6->org.scala-lang#scala-library;2.10.6 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.10.6->org.scala-lang#scala-library;2.10.6 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.6->org.scala-lang#scala-library;2.10.6 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.6->org.scala-lang#scala-library;2.10.6 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.6->org.scala-lang#scala-reflect;2.10.6 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.6->org.scala-lang#scala-reflect;2.10.6 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.10.6->org.scala-lang#scala-library;2.10.6 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.10.6->org.scala-lang#scala-library;2.10.6 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scala-gitrev_2.10;06f69295103b28836067bcd604a604be0b071577-SNAPSHOT->org.scala-lang#scala-compiler;2.10.6 [provided->master][0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'runtime-internal'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#scala-gitrev_2.10;06f69295103b28836067bcd604a604be0b071577-SNAPSHOT [runtime-internal][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#scala-gitrev_2.10;06f69295103b28836067bcd604a604be0b071577-SNAPSHOT [runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#scala-gitrev_2.10;06f69295103b28836067bcd604a604be0b071577-SNAPSHOT [compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scala-gitrev_2.10;06f69295103b28836067bcd604a604be0b071577-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scala-gitrev_2.10;06f69295103b28836067bcd604a604be0b071577-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scala-gitrev_2.10;06f69295103b28836067bcd604a604be0b071577-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scala-gitrev_2.10;06f69295103b28836067bcd604a604be0b071577-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scala-gitrev_2.10;06f69295103b28836067bcd604a604be0b071577-SNAPSHOT->org.typelevel#macro-compat_2.10;1.1.1 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scala-gitrev_2.10;06f69295103b28836067bcd604a604be0b071577-SNAPSHOT->org.typelevel#macro-compat_2.10;1.1.1 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scala-gitrev_2.10;06f69295103b28836067bcd604a604be0b071577-SNAPSHOT->org.typelevel#macro-compat_2.10;1.1.1 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.typelevel#macro-compat_2.10;1.1.1->org.scala-lang#scala-library;2.10.6 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.typelevel#macro-compat_2.10;1.1.1->org.scala-lang#scala-library;2.10.6 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.typelevel#macro-compat_2.10;1.1.1->org.scalamacros#quasiquotes_2.10;2.1.0 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.typelevel#macro-compat_2.10;1.1.1->org.scalamacros#quasiquotes_2.10;2.1.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalamacros#quasiquotes_2.10;2.1.0->org.scala-lang#scala-library;2.10.4 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalamacros#quasiquotes_2.10;2.1.0->org.scala-lang#scala-library;2.10.6 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalamacros#quasiquotes_2.10;2.1.0->org.scala-lang#scala-library;2.10.4 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalamacros#quasiquotes_2.10;2.1.0->org.scala-lang#scala-library;2.10.6 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalamacros#quasiquotes_2.10;2.1.0->org.scala-lang#scala-reflect;2.10.4 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalamacros#quasiquotes_2.10;2.1.0->org.scala-lang#scala-reflect;2.10.4 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.10.4->org.scala-lang#scala-library;2.10.4 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.10.4->org.scala-lang#scala-library;2.10.6 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.10.4->org.scala-lang#scala-library;2.10.4 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.10.4->org.scala-lang#scala-library;2.10.6 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.typelevel#macro-compat_2.10;1.1.1->org.scala-lang#scala-library;2.10.6 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.typelevel#macro-compat_2.10;1.1.1->org.scala-lang#scala-library;2.10.6 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.typelevel#macro-compat_2.10;1.1.1->org.scalamacros#quasiquotes_2.10;2.1.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.typelevel#macro-compat_2.10;1.1.1->org.scalamacros#quasiquotes_2.10;2.1.0 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalamacros#quasiquotes_2.10;2.1.0->org.scala-lang#scala-library;2.10.4 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalamacros#quasiquotes_2.10;2.1.0->org.scala-lang#scala-library;2.10.6 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalamacros#quasiquotes_2.10;2.1.0->org.scala-lang#scala-library;2.10.6 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalamacros#quasiquotes_2.10;2.1.0->org.scala-lang#scala-reflect;2.10.4 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalamacros#quasiquotes_2.10;2.1.0->org.scala-lang#scala-reflect;2.10.4 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.10.4->org.scala-lang#scala-library;2.10.4 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.10.4->org.scala-lang#scala-library;2.10.6 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.10.4->org.scala-lang#scala-library;2.10.6 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scala-gitrev_2.10;06f69295103b28836067bcd604a604be0b071577-SNAPSHOT->org.typelevel#macro-compat_2.10;1.1.1 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#scala-gitrev_2.10;06f69295103b28836067bcd604a604be0b071577-SNAPSHOT [optional][0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'test-internal'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#scala-gitrev_2.10;06f69295103b28836067bcd604a604be0b071577-SNAPSHOT [test-internal][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#scala-gitrev_2.10;06f69295103b28836067bcd604a604be0b071577-SNAPSHOT [test][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#scala-gitrev_2.10;06f69295103b28836067bcd604a604be0b071577-SNAPSHOT [runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#scala-gitrev_2.10;06f69295103b28836067bcd604a604be0b071577-SNAPSHOT [compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scala-gitrev_2.10;06f69295103b28836067bcd604a604be0b071577-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scala-gitrev_2.10;06f69295103b28836067bcd604a604be0b071577-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scala-gitrev_2.10;06f69295103b28836067bcd604a604be0b071577-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scala-gitrev_2.10;06f69295103b28836067bcd604a604be0b071577-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scala-gitrev_2.10;06f69295103b28836067bcd604a604be0b071577-SNAPSHOT->org.typelevel#macro-compat_2.10;1.1.1 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scala-gitrev_2.10;06f69295103b28836067bcd604a604be0b071577-SNAPSHOT->org.typelevel#macro-compat_2.10;1.1.1 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scala-gitrev_2.10;06f69295103b28836067bcd604a604be0b071577-SNAPSHOT->org.typelevel#macro-compat_2.10;1.1.1 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.typelevel#macro-compat_2.10;1.1.1->org.scala-lang#scala-library;2.10.6 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.typelevel#macro-compat_2.10;1.1.1->org.scala-lang#scala-library;2.10.6 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.typelevel#macro-compat_2.10;1.1.1->org.scalamacros#quasiquotes_2.10;2.1.0 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.typelevel#macro-compat_2.10;1.1.1->org.scalamacros#quasiquotes_2.10;2.1.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalamacros#quasiquotes_2.10;2.1.0->org.scala-lang#scala-library;2.10.4 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalamacros#quasiquotes_2.10;2.1.0->org.scala-lang#scala-library;2.10.6 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalamacros#quasiquotes_2.10;2.1.0->org.scala-lang#scala-library;2.10.4 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalamacros#quasiquotes_2.10;2.1.0->org.scala-lang#scala-library;2.10.6 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalamacros#quasiquotes_2.10;2.1.0->org.scala-lang#scala-reflect;2.10.4 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalamacros#quasiquotes_2.10;2.1.0->org.scala-lang#scala-reflect;2.10.4 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.10.4->org.scala-lang#scala-library;2.10.4 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.10.4->org.scala-lang#scala-library;2.10.6 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.10.4->org.scala-lang#scala-library;2.10.4 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.10.4->org.scala-lang#scala-library;2.10.6 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.typelevel#macro-compat_2.10;1.1.1->org.scala-lang#scala-library;2.10.6 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.typelevel#macro-compat_2.10;1.1.1->org.scala-lang#scala-library;2.10.6 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.typelevel#macro-compat_2.10;1.1.1->org.scalamacros#quasiquotes_2.10;2.1.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.typelevel#macro-compat_2.10;1.1.1->org.scalamacros#quasiquotes_2.10;2.1.0 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalamacros#quasiquotes_2.10;2.1.0->org.scala-lang#scala-library;2.10.4 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalamacros#quasiquotes_2.10;2.1.0->org.scala-lang#scala-library;2.10.6 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalamacros#quasiquotes_2.10;2.1.0->org.scala-lang#scala-library;2.10.6 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalamacros#quasiquotes_2.10;2.1.0->org.scala-lang#scala-reflect;2.10.4 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalamacros#quasiquotes_2.10;2.1.0->org.scala-lang#scala-reflect;2.10.4 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.10.4->org.scala-lang#scala-library;2.10.4 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.10.4->org.scala-lang#scala-library;2.10.6 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.10.4->org.scala-lang#scala-library;2.10.6 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scala-gitrev_2.10;06f69295103b28836067bcd604a604be0b071577-SNAPSHOT->org.typelevel#macro-compat_2.10;1.1.1 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scala-gitrev_2.10;06f69295103b28836067bcd604a604be0b071577-SNAPSHOT->org.scalacheck#scalacheck_2.10;1.13.4 [test->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scala-gitrev_2.10;06f69295103b28836067bcd604a604be0b071577-SNAPSHOT->org.scalacheck#scalacheck_2.10;1.13.4 [test->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scala-gitrev_2.10;06f69295103b28836067bcd604a604be0b071577-SNAPSHOT->org.scalacheck#scalacheck_2.10;1.13.4 [test->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalacheck#scalacheck_2.10;1.13.4->org.scala-lang#scala-library;2.10.6 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalacheck#scalacheck_2.10;1.13.4->org.scala-lang#scala-library;2.10.6 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalacheck#scalacheck_2.10;1.13.4->org.scala-sbt#test-interface;1.0 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalacheck#scalacheck_2.10;1.13.4->org.scala-sbt#test-interface;1.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalacheck#scalacheck_2.10;1.13.4->org.scala-lang#scala-library;2.10.6 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalacheck#scalacheck_2.10;1.13.4->org.scala-lang#scala-library;2.10.6 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalacheck#scalacheck_2.10;1.13.4->org.scala-sbt#test-interface;1.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalacheck#scalacheck_2.10;1.13.4->org.scala-sbt#test-interface;1.0 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scala-gitrev_2.10;06f69295103b28836067bcd604a604be0b071577-SNAPSHOT->org.scalacheck#scalacheck_2.10;1.13.4 [test->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scala-gitrev_2.10;06f69295103b28836067bcd604a604be0b071577-SNAPSHOT->org.scalatest#scalatest_2.10;3.0.1 [test->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scala-gitrev_2.10;06f69295103b28836067bcd604a604be0b071577-SNAPSHOT->org.scalatest#scalatest_2.10;3.0.1 [test->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scala-gitrev_2.10;06f69295103b28836067bcd604a604be0b071577-SNAPSHOT->org.scalatest#scalatest_2.10;3.0.1 [test->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalatest#scalatest_2.10;3.0.1->org.scala-lang#scala-library;2.10.6 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalatest#scalatest_2.10;3.0.1->org.scala-lang#scala-library;2.10.6 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalatest#scalatest_2.10;3.0.1->org.scalactic#scalactic_2.10;3.0.1 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalatest#scalatest_2.10;3.0.1->org.scalactic#scalactic_2.10;3.0.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalactic#scalactic_2.10;3.0.1->org.scala-lang#scala-library;2.10.6 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalactic#scalactic_2.10;3.0.1->org.scala-lang#scala-library;2.10.6 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalactic#scalactic_2.10;3.0.1->org.scala-lang#scala-reflect;2.10.6 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalactic#scalactic_2.10;3.0.1->org.scala-lang#scala-reflect;2.10.6 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.10.6->org.scala-lang#scala-library;2.10.6 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.10.6->org.scala-lang#scala-library;2.10.6 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalatest#scalatest_2.10;3.0.1->org.scala-lang#scala-reflect;2.10.6 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalatest#scalatest_2.10;3.0.1->org.scala-lang#scala-reflect;2.10.6 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalatest#scalatest_2.10;3.0.1->org.scala-lang#scala-library;2.10.6 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalatest#scalatest_2.10;3.0.1->org.scala-lang#scala-library;2.10.6 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalatest#scalatest_2.10;3.0.1->org.scalactic#scalactic_2.10;3.0.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalatest#scalatest_2.10;3.0.1->org.scalactic#scalactic_2.10;3.0.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalactic#scalactic_2.10;3.0.1->org.scala-lang#scala-library;2.10.6 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalactic#scalactic_2.10;3.0.1->org.scala-lang#scala-library;2.10.6 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalactic#scalactic_2.10;3.0.1->org.scala-lang#scala-reflect;2.10.6 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalactic#scalactic_2.10;3.0.1->org.scala-lang#scala-reflect;2.10.6 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.10.6->org.scala-lang#scala-library;2.10.6 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.10.6->org.scala-lang#scala-library;2.10.6 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalatest#scalatest_2.10;3.0.1->org.scala-lang#scala-reflect;2.10.6 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalatest#scalatest_2.10;3.0.1->org.scala-lang#scala-reflect;2.10.6 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scala-gitrev_2.10;06f69295103b28836067bcd604a604be0b071577-SNAPSHOT->org.scalatest#scalatest_2.10;3.0.1 [test->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#scala-gitrev_2.10;06f69295103b28836067bcd604a604be0b071577-SNAPSHOT [optional][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#scala-gitrev_2.10;06f69295103b28836067bcd604a604be0b071577-SNAPSHOT [provided][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scala-gitrev_2.10;06f69295103b28836067bcd604a604be0b071577-SNAPSHOT->org.scala-lang#scala-compiler;2.10.6 [provided->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scala-gitrev_2.10;06f69295103b28836067bcd604a604be0b071577-SNAPSHOT->org.scala-lang#scala-compiler;2.10.6 [provided->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scala-gitrev_2.10;06f69295103b28836067bcd604a604be0b071577-SNAPSHOT->org.scala-lang#scala-compiler;2.10.6 [provided->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.6->org.scala-lang#scala-library;2.10.6 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.6->org.scala-lang#scala-library;2.10.6 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.6->org.scala-lang#scala-reflect;2.10.6 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.6->org.scala-lang#scala-reflect;2.10.6 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.6->org.scala-lang#scala-library;2.10.6 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.6->org.scala-lang#scala-library;2.10.6 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.6->org.scala-lang#scala-reflect;2.10.6 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.6->org.scala-lang#scala-reflect;2.10.6 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scala-gitrev_2.10;06f69295103b28836067bcd604a604be0b071577-SNAPSHOT->org.scala-lang#scala-compiler;2.10.6 [provided->master][0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'plugin'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#scala-gitrev_2.10;06f69295103b28836067bcd604a604be0b071577-SNAPSHOT [plugin][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scala-gitrev_2.10;06f69295103b28836067bcd604a604be0b071577-SNAPSHOT->org.scalamacros#paradise_2.10.6;2.1.0 [plugin->default(compile)][0m
+[0m[[0minfo[0m] [0mResolving org.scalamacros#paradise_2.10.6;2.1.0 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.scalamacros#paradise_2.10.6;2.1.0 {plugin=[default(compile)]}[0m
+[0m[[0minfo[0m] [0mResolving org.scalamacros#paradise_2.10.6;2.1.0 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain-delegate: Checking cache for: dependency: org.scalamacros#paradise_2.10.6;2.1.0 {plugin=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0m		tried /home/aaronlevin/.ivy2/local/org.scalamacros/paradise_2.10.6/2.1.0/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	local: no ivy file found for org.scalamacros#paradise_2.10.6;2.1.0[0m
+[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/org/scalamacros/paradise_2.10.6/2.1.0/paradise_2.10.6-2.1.0.pom[0m
+[0m[[0mdebug[0m] [0m	public: found md file for org.scalamacros#paradise_2.10.6;2.1.0[0m
+[0m[[0mdebug[0m] [0m		=> https://repo1.maven.org/maven2/org/scalamacros/paradise_2.10.6/2.1.0/paradise_2.10.6-2.1.0.pom (2.1.0)[0m
+[0m[[0mdebug[0m] [0mdownloading https://repo1.maven.org/maven2/org/scalamacros/paradise_2.10.6/2.1.0/paradise_2.10.6-2.1.0.pom ...[0m
+[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/scalamacros/paradise_2.10.6/2.1.0/paradise_2.10.6-2.1.0.pom[0m
+[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/scalamacros/paradise_2.10.6/2.1.0/paradise_2.10.6-2.1.0.pom.sha1[0m
+[0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/org/scalamacros/paradise_2.10.6/2.1.0/paradise_2.10.6-2.1.0.pom[0m
+[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.scalamacros#paradise_2.10.6;2.1.0!paradise_2.10.6.pom(pom.original) (859ms)[0m
+[0m[[0mdebug[0m] [0m		tried /home/aaronlevin/.ivy2/local/org.scalamacros/paradise_2.10.6/2.1.0/jars/paradise_2.10.6.jar[0m
+[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/org/scalamacros/paradise_2.10.6/2.1.0/paradise_2.10.6-2.1.0.jar[0m
+[0m[[0mdebug[0m] [0m	found org.scalamacros#paradise_2.10.6;2.1.0 in public[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scala-gitrev_2.10;06f69295103b28836067bcd604a604be0b071577-SNAPSHOT->org.scalamacros#paradise_2.10.6;2.1.0 [plugin->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scala-gitrev_2.10;06f69295103b28836067bcd604a604be0b071577-SNAPSHOT->org.scalamacros#paradise_2.10.6;2.1.0 [plugin->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalamacros#paradise_2.10.6;2.1.0->org.scala-lang#scala-library;2.10.6 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalamacros#paradise_2.10.6;2.1.0->org.scala-lang#scala-library;2.10.6 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalamacros#paradise_2.10.6;2.1.0->org.scalamacros#quasiquotes_2.10;2.1.0 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalamacros#paradise_2.10.6;2.1.0->org.scalamacros#quasiquotes_2.10;2.1.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalamacros#quasiquotes_2.10;2.1.0->org.scala-lang#scala-library;2.10.4 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalamacros#quasiquotes_2.10;2.1.0->org.scala-lang#scala-library;2.10.6 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalamacros#quasiquotes_2.10;2.1.0->org.scala-lang#scala-library;2.10.4 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalamacros#quasiquotes_2.10;2.1.0->org.scala-lang#scala-library;2.10.6 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalamacros#quasiquotes_2.10;2.1.0->org.scala-lang#scala-reflect;2.10.4 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalamacros#quasiquotes_2.10;2.1.0->org.scala-lang#scala-reflect;2.10.4 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.10.4->org.scala-lang#scala-library;2.10.4 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.10.4->org.scala-lang#scala-library;2.10.6 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.10.4->org.scala-lang#scala-library;2.10.4 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.10.4->org.scala-lang#scala-library;2.10.6 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalamacros#paradise_2.10.6;2.1.0->org.scala-lang#scala-library;2.10.6 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalamacros#paradise_2.10.6;2.1.0->org.scala-lang#scala-library;2.10.6 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalamacros#paradise_2.10.6;2.1.0->org.scalamacros#quasiquotes_2.10;2.1.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalamacros#paradise_2.10.6;2.1.0->org.scalamacros#quasiquotes_2.10;2.1.0 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalamacros#quasiquotes_2.10;2.1.0->org.scala-lang#scala-library;2.10.4 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalamacros#quasiquotes_2.10;2.1.0->org.scala-lang#scala-library;2.10.6 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalamacros#quasiquotes_2.10;2.1.0->org.scala-lang#scala-library;2.10.6 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalamacros#quasiquotes_2.10;2.1.0->org.scala-lang#scala-reflect;2.10.4 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalamacros#quasiquotes_2.10;2.1.0->org.scala-lang#scala-reflect;2.10.4 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.10.4->org.scala-lang#scala-library;2.10.4 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.10.4->org.scala-lang#scala-library;2.10.6 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.10.4->org.scala-lang#scala-library;2.10.6 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scala-gitrev_2.10;06f69295103b28836067bcd604a604be0b071577-SNAPSHOT->org.scalamacros#paradise_2.10.6;2.1.0 [plugin->master][0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'sources'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#scala-gitrev_2.10;06f69295103b28836067bcd604a604be0b071577-SNAPSHOT [sources][0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'docs'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#scala-gitrev_2.10;06f69295103b28836067bcd604a604be0b071577-SNAPSHOT [docs][0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'pom'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#scala-gitrev_2.10;06f69295103b28836067bcd604a604be0b071577-SNAPSHOT [pom][0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'scala-tool'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#scala-gitrev_2.10;06f69295103b28836067bcd604a604be0b071577-SNAPSHOT [scala-tool][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scala-gitrev_2.10;06f69295103b28836067bcd604a604be0b071577-SNAPSHOT->org.scala-lang#scala-compiler;2.10.6 [scala-tool->default][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scala-gitrev_2.10;06f69295103b28836067bcd604a604be0b071577-SNAPSHOT->org.scala-lang#scala-compiler;2.10.6 [scala-tool->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scala-gitrev_2.10;06f69295103b28836067bcd604a604be0b071577-SNAPSHOT->org.scala-lang#scala-compiler;2.10.6 [scala-tool->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.6->org.scala-lang#scala-library;2.10.6 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.6->org.scala-lang#scala-library;2.10.6 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.6->org.scala-lang#scala-library;2.10.6 [compile->default][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.6->org.scala-lang#scala-library;2.10.6 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.6->org.scala-lang#scala-library;2.10.6 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.6->org.scala-lang#scala-library;2.10.6 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.6->org.scala-lang#scala-library;2.10.6 [compile->optional(default)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.6->org.scala-lang#scala-reflect;2.10.6 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.6->org.scala-lang#scala-reflect;2.10.6 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.10.6->org.scala-lang#scala-library;2.10.6 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.10.6->org.scala-lang#scala-library;2.10.6 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.6->org.scala-lang#scala-library;2.10.6 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.6->org.scala-lang#scala-library;2.10.6 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.6->org.scala-lang#scala-reflect;2.10.6 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.6->org.scala-lang#scala-reflect;2.10.6 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.10.6->org.scala-lang#scala-library;2.10.6 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.10.6->org.scala-lang#scala-library;2.10.6 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scala-gitrev_2.10;06f69295103b28836067bcd604a604be0b071577-SNAPSHOT->org.scala-lang#scala-compiler;2.10.6 [scala-tool->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scala-gitrev_2.10;06f69295103b28836067bcd604a604be0b071577-SNAPSHOT->org.scala-lang#scala-compiler;2.10.6 [scala-tool->optional(default)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.6->org.scala-lang#jline;2.10.6 [optional->master(*)][0m
+[0m[[0minfo[0m] [0mResolving org.scala-lang#jline;2.10.6 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.scala-lang#jline;2.10.6 {optional=[compile(*), master(*)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scala-lang#jline;2.10.6[0m
+[0m[[0mdebug[0m] [0m	found org.scala-lang#jline;2.10.6 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.6->org.scala-lang#jline;2.10.6 [optional->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#jline;2.10.6->org.fusesource.jansi#jansi;1.4 [compile->master(*)][0m
+[0m[[0minfo[0m] [0mResolving org.fusesource.jansi#jansi;1.4 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.fusesource.jansi#jansi;1.4 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.fusesource.jansi#jansi;1.4[0m
+[0m[[0mdebug[0m] [0m	found org.fusesource.jansi#jansi;1.4 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#jline;2.10.6->org.fusesource.jansi#jansi;1.4 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scala-gitrev_2.10;06f69295103b28836067bcd604a604be0b071577-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [scala-tool->default][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scala-gitrev_2.10;06f69295103b28836067bcd604a604be0b071577-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [scala-tool->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scala-gitrev_2.10;06f69295103b28836067bcd604a604be0b071577-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [scala-tool->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scala-gitrev_2.10;06f69295103b28836067bcd604a604be0b071577-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [scala-tool->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scala-gitrev_2.10;06f69295103b28836067bcd604a604be0b071577-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [scala-tool->optional(default)][0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'scalafmt'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#scala-gitrev_2.10;06f69295103b28836067bcd604a604be0b071577-SNAPSHOT [scalafmt][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scala-gitrev_2.10;06f69295103b28836067bcd604a604be0b071577-SNAPSHOT->org.scala-lang#scala-library;2.11.8 [scalafmt->default(compile)][0m
+[0m[[0minfo[0m] [0mResolving org.scala-lang#scala-library;2.11.8 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.scala-lang#scala-library;2.11.8 {scalafmt=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scala-lang#scala-library;2.11.8[0m
+[0m[[0mdebug[0m] [0m	found org.scala-lang#scala-library;2.11.8 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m	[2.11.8] org.scala-lang#scala-library;2.11.8[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scala-gitrev_2.10;06f69295103b28836067bcd604a604be0b071577-SNAPSHOT->org.scala-lang#scala-library;2.11.8 [scalafmt->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scala-gitrev_2.10;06f69295103b28836067bcd604a604be0b071577-SNAPSHOT->org.scala-lang#scala-library;2.11.8 [scalafmt->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scala-gitrev_2.10;06f69295103b28836067bcd604a604be0b071577-SNAPSHOT->org.scala-lang#scala-library;2.11.8 [scalafmt->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scala-gitrev_2.10;06f69295103b28836067bcd604a604be0b071577-SNAPSHOT->com.geirsson#scalafmt-cli_2.11;0.4.10 [scalafmt->default(compile)][0m
+[0m[[0minfo[0m] [0mResolving com.geirsson#scalafmt-cli_2.11;0.4.10 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: com.geirsson#scalafmt-cli_2.11;0.4.10 {scalafmt=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: com.geirsson#scalafmt-cli_2.11;0.4.10[0m
+[0m[[0mdebug[0m] [0m	found com.geirsson#scalafmt-cli_2.11;0.4.10 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m	[0.4.10] com.geirsson#scalafmt-cli_2.11;0.4.10[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scala-gitrev_2.10;06f69295103b28836067bcd604a604be0b071577-SNAPSHOT->com.geirsson#scalafmt-cli_2.11;0.4.10 [scalafmt->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scala-gitrev_2.10;06f69295103b28836067bcd604a604be0b071577-SNAPSHOT->com.geirsson#scalafmt-cli_2.11;0.4.10 [scalafmt->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.geirsson#scalafmt-cli_2.11;0.4.10->org.scala-lang#scala-library;2.11.8 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.geirsson#scalafmt-cli_2.11;0.4.10->org.scala-lang#scala-library;2.11.8 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.geirsson#scalafmt-cli_2.11;0.4.10->org.scala-lang#scala-library;2.11.8 [compile->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.geirsson#scalafmt-cli_2.11;0.4.10->org.scala-lang#scala-library;2.11.8 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.geirsson#scalafmt-cli_2.11;0.4.10->com.geirsson#scalafmt-core_2.11;0.4.10 [compile->master(compile)][0m
+[0m[[0minfo[0m] [0mResolving com.geirsson#scalafmt-core_2.11;0.4.10 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: com.geirsson#scalafmt-core_2.11;0.4.10 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: com.geirsson#scalafmt-core_2.11;0.4.10[0m
+[0m[[0mdebug[0m] [0m	found com.geirsson#scalafmt-core_2.11;0.4.10 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m	[0.4.10] com.geirsson#scalafmt-core_2.11;0.4.10[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.geirsson#scalafmt-cli_2.11;0.4.10->com.geirsson#scalafmt-core_2.11;0.4.10 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.geirsson#scalafmt-core_2.11;0.4.10->org.scala-lang#scala-library;2.11.8 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.geirsson#scalafmt-core_2.11;0.4.10->org.scala-lang#scala-library;2.11.8 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.geirsson#scalafmt-core_2.11;0.4.10->com.geirsson#metaconfig_2.11;0.4.10 [compile->master(compile)][0m
+[0m[[0minfo[0m] [0mResolving com.geirsson#metaconfig_2.11;0.4.10 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: com.geirsson#metaconfig_2.11;0.4.10 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: com.geirsson#metaconfig_2.11;0.4.10[0m
+[0m[[0mdebug[0m] [0m	found com.geirsson#metaconfig_2.11;0.4.10 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m	[0.4.10] com.geirsson#metaconfig_2.11;0.4.10[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.geirsson#scalafmt-core_2.11;0.4.10->com.geirsson#metaconfig_2.11;0.4.10 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.geirsson#metaconfig_2.11;0.4.10->org.scala-lang#scala-library;2.11.8 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.geirsson#metaconfig_2.11;0.4.10->org.scala-lang#scala-library;2.11.8 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.geirsson#metaconfig_2.11;0.4.10->org.scalameta#scalameta_2.11;1.1.0 [compile->master(compile)][0m
+[0m[[0minfo[0m] [0mResolving org.scalameta#scalameta_2.11;1.1.0 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.scalameta#scalameta_2.11;1.1.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scalameta#scalameta_2.11;1.1.0[0m
+[0m[[0mdebug[0m] [0m	found org.scalameta#scalameta_2.11;1.1.0 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.geirsson#metaconfig_2.11;0.4.10->org.scalameta#scalameta_2.11;1.1.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalameta#scalameta_2.11;1.1.0->org.scala-lang#scala-library;2.11.8 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalameta#scalameta_2.11;1.1.0->org.scala-lang#scala-library;2.11.8 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalameta#scalameta_2.11;1.1.0->org.scalameta#common_2.11;1.1.0 [compile->master(compile)][0m
+[0m[[0minfo[0m] [0mResolving org.scalameta#common_2.11;1.1.0 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.scalameta#common_2.11;1.1.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scalameta#common_2.11;1.1.0[0m
+[0m[[0mdebug[0m] [0m	found org.scalameta#common_2.11;1.1.0 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalameta#scalameta_2.11;1.1.0->org.scalameta#common_2.11;1.1.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalameta#common_2.11;1.1.0->org.scala-lang#scala-library;2.11.8 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalameta#common_2.11;1.1.0->org.scala-lang#scala-library;2.11.8 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalameta#scalameta_2.11;1.1.0->org.scalameta#dialects_2.11;1.1.0 [compile->master(compile)][0m
+[0m[[0minfo[0m] [0mResolving org.scalameta#dialects_2.11;1.1.0 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.scalameta#dialects_2.11;1.1.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scalameta#dialects_2.11;1.1.0[0m
+[0m[[0mdebug[0m] [0m	found org.scalameta#dialects_2.11;1.1.0 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalameta#scalameta_2.11;1.1.0->org.scalameta#dialects_2.11;1.1.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalameta#dialects_2.11;1.1.0->org.scala-lang#scala-library;2.11.8 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalameta#dialects_2.11;1.1.0->org.scala-lang#scala-library;2.11.8 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalameta#dialects_2.11;1.1.0->org.scalameta#common_2.11;1.1.0 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalameta#dialects_2.11;1.1.0->org.scalameta#common_2.11;1.1.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalameta#scalameta_2.11;1.1.0->org.scalameta#parsers_2.11;1.1.0 [compile->master(compile)][0m
+[0m[[0minfo[0m] [0mResolving org.scalameta#parsers_2.11;1.1.0 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.scalameta#parsers_2.11;1.1.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scalameta#parsers_2.11;1.1.0[0m
+[0m[[0mdebug[0m] [0m	found org.scalameta#parsers_2.11;1.1.0 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalameta#scalameta_2.11;1.1.0->org.scalameta#parsers_2.11;1.1.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalameta#parsers_2.11;1.1.0->org.scala-lang#scala-library;2.11.8 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalameta#parsers_2.11;1.1.0->org.scala-lang#scala-library;2.11.8 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalameta#parsers_2.11;1.1.0->org.scalameta#common_2.11;1.1.0 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalameta#parsers_2.11;1.1.0->org.scalameta#common_2.11;1.1.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalameta#parsers_2.11;1.1.0->org.scalameta#dialects_2.11;1.1.0 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalameta#parsers_2.11;1.1.0->org.scalameta#dialects_2.11;1.1.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalameta#parsers_2.11;1.1.0->org.scalameta#inputs_2.11;1.1.0 [compile->master(compile)][0m
+[0m[[0minfo[0m] [0mResolving org.scalameta#inputs_2.11;1.1.0 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.scalameta#inputs_2.11;1.1.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scalameta#inputs_2.11;1.1.0[0m
+[0m[[0mdebug[0m] [0m	found org.scalameta#inputs_2.11;1.1.0 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalameta#parsers_2.11;1.1.0->org.scalameta#inputs_2.11;1.1.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalameta#inputs_2.11;1.1.0->org.scala-lang#scala-library;2.11.8 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalameta#inputs_2.11;1.1.0->org.scala-lang#scala-library;2.11.8 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalameta#inputs_2.11;1.1.0->org.scalameta#common_2.11;1.1.0 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalameta#inputs_2.11;1.1.0->org.scalameta#common_2.11;1.1.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalameta#parsers_2.11;1.1.0->org.scalameta#tokens_2.11;1.1.0 [compile->master(compile)][0m
+[0m[[0minfo[0m] [0mResolving org.scalameta#tokens_2.11;1.1.0 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.scalameta#tokens_2.11;1.1.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scalameta#tokens_2.11;1.1.0[0m
+[0m[[0mdebug[0m] [0m	found org.scalameta#tokens_2.11;1.1.0 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalameta#parsers_2.11;1.1.0->org.scalameta#tokens_2.11;1.1.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalameta#tokens_2.11;1.1.0->org.scala-lang#scala-library;2.11.8 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalameta#tokens_2.11;1.1.0->org.scala-lang#scala-library;2.11.8 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalameta#tokens_2.11;1.1.0->org.scalameta#common_2.11;1.1.0 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalameta#tokens_2.11;1.1.0->org.scalameta#common_2.11;1.1.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalameta#tokens_2.11;1.1.0->org.scalameta#dialects_2.11;1.1.0 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalameta#tokens_2.11;1.1.0->org.scalameta#dialects_2.11;1.1.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalameta#tokens_2.11;1.1.0->org.scalameta#inputs_2.11;1.1.0 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalameta#tokens_2.11;1.1.0->org.scalameta#inputs_2.11;1.1.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalameta#parsers_2.11;1.1.0->org.scalameta#tokenizers_2.11;1.1.0 [compile->master(compile)][0m
+[0m[[0minfo[0m] [0mResolving org.scalameta#tokenizers_2.11;1.1.0 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.scalameta#tokenizers_2.11;1.1.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scalameta#tokenizers_2.11;1.1.0[0m
+[0m[[0mdebug[0m] [0m	found org.scalameta#tokenizers_2.11;1.1.0 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalameta#parsers_2.11;1.1.0->org.scalameta#tokenizers_2.11;1.1.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalameta#tokenizers_2.11;1.1.0->org.scala-lang#scala-library;2.11.8 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalameta#tokenizers_2.11;1.1.0->org.scala-lang#scala-library;2.11.8 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalameta#tokenizers_2.11;1.1.0->org.scalameta#common_2.11;1.1.0 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalameta#tokenizers_2.11;1.1.0->org.scalameta#common_2.11;1.1.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalameta#tokenizers_2.11;1.1.0->org.scalameta#dialects_2.11;1.1.0 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalameta#tokenizers_2.11;1.1.0->org.scalameta#dialects_2.11;1.1.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalameta#tokenizers_2.11;1.1.0->org.scalameta#inputs_2.11;1.1.0 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalameta#tokenizers_2.11;1.1.0->org.scalameta#inputs_2.11;1.1.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalameta#tokenizers_2.11;1.1.0->org.scalameta#tokens_2.11;1.1.0 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalameta#tokenizers_2.11;1.1.0->org.scalameta#tokens_2.11;1.1.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalameta#tokenizers_2.11;1.1.0->com.lihaoyi#scalaparse_2.11;0.3.7 [compile->master(compile)][0m
+[0m[[0minfo[0m] [0mResolving com.lihaoyi#scalaparse_2.11;0.3.7 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: com.lihaoyi#scalaparse_2.11;0.3.7 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: com.lihaoyi#scalaparse_2.11;0.3.7[0m
+[0m[[0mdebug[0m] [0m	found com.lihaoyi#scalaparse_2.11;0.3.7 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalameta#tokenizers_2.11;1.1.0->com.lihaoyi#scalaparse_2.11;0.3.7 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.lihaoyi#scalaparse_2.11;0.3.7->org.scala-lang#scala-library;2.11.7 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.lihaoyi#scalaparse_2.11;0.3.7->org.scala-lang#scala-library;2.11.8 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.lihaoyi#scalaparse_2.11;0.3.7->org.scala-lang#scala-library;2.11.7 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.lihaoyi#scalaparse_2.11;0.3.7->org.scala-lang#scala-library;2.11.8 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.lihaoyi#scalaparse_2.11;0.3.7->com.lihaoyi#fastparse_2.11;0.3.7 [compile->master(compile)][0m
+[0m[[0minfo[0m] [0mResolving com.lihaoyi#fastparse_2.11;0.3.7 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: com.lihaoyi#fastparse_2.11;0.3.7 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: com.lihaoyi#fastparse_2.11;0.3.7[0m
+[0m[[0mdebug[0m] [0m	found com.lihaoyi#fastparse_2.11;0.3.7 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.lihaoyi#scalaparse_2.11;0.3.7->com.lihaoyi#fastparse_2.11;0.3.7 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.lihaoyi#fastparse_2.11;0.3.7->org.scala-lang#scala-library;2.11.7 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.lihaoyi#fastparse_2.11;0.3.7->org.scala-lang#scala-library;2.11.8 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.lihaoyi#fastparse_2.11;0.3.7->org.scala-lang#scala-library;2.11.7 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.lihaoyi#fastparse_2.11;0.3.7->org.scala-lang#scala-library;2.11.8 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.lihaoyi#fastparse_2.11;0.3.7->com.lihaoyi#fastparse-utils_2.11;0.3.7 [compile->master(compile)][0m
+[0m[[0minfo[0m] [0mResolving com.lihaoyi#fastparse-utils_2.11;0.3.7 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: com.lihaoyi#fastparse-utils_2.11;0.3.7 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: com.lihaoyi#fastparse-utils_2.11;0.3.7[0m
+[0m[[0mdebug[0m] [0m	found com.lihaoyi#fastparse-utils_2.11;0.3.7 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.lihaoyi#fastparse_2.11;0.3.7->com.lihaoyi#fastparse-utils_2.11;0.3.7 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.lihaoyi#fastparse-utils_2.11;0.3.7->org.scala-lang#scala-library;2.11.7 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.lihaoyi#fastparse-utils_2.11;0.3.7->org.scala-lang#scala-library;2.11.8 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.lihaoyi#fastparse-utils_2.11;0.3.7->org.scala-lang#scala-library;2.11.7 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.lihaoyi#fastparse-utils_2.11;0.3.7->org.scala-lang#scala-library;2.11.8 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.lihaoyi#fastparse-utils_2.11;0.3.7->com.lihaoyi#sourcecode_2.11;0.1.1 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.lihaoyi#fastparse-utils_2.11;0.3.7->com.lihaoyi#sourcecode_2.11;0.1.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.lihaoyi#fastparse_2.11;0.3.7->com.lihaoyi#sourcecode_2.11;0.1.1 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.lihaoyi#fastparse_2.11;0.3.7->com.lihaoyi#sourcecode_2.11;0.1.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.lihaoyi#scalaparse_2.11;0.3.7->com.lihaoyi#sourcecode_2.11;0.1.1 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.lihaoyi#scalaparse_2.11;0.3.7->com.lihaoyi#sourcecode_2.11;0.1.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalameta#parsers_2.11;1.1.0->org.scalameta#trees_2.11;1.1.0 [compile->master(compile)][0m
+[0m[[0minfo[0m] [0mResolving org.scalameta#trees_2.11;1.1.0 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.scalameta#trees_2.11;1.1.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scalameta#trees_2.11;1.1.0[0m
+[0m[[0mdebug[0m] [0m	found org.scalameta#trees_2.11;1.1.0 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalameta#parsers_2.11;1.1.0->org.scalameta#trees_2.11;1.1.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalameta#trees_2.11;1.1.0->org.scala-lang#scala-library;2.11.8 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalameta#trees_2.11;1.1.0->org.scala-lang#scala-library;2.11.8 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalameta#trees_2.11;1.1.0->org.scalameta#common_2.11;1.1.0 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalameta#trees_2.11;1.1.0->org.scalameta#common_2.11;1.1.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalameta#trees_2.11;1.1.0->org.scalameta#dialects_2.11;1.1.0 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalameta#trees_2.11;1.1.0->org.scalameta#dialects_2.11;1.1.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalameta#trees_2.11;1.1.0->org.scalameta#inputs_2.11;1.1.0 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalameta#trees_2.11;1.1.0->org.scalameta#inputs_2.11;1.1.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalameta#trees_2.11;1.1.0->org.scalameta#tokens_2.11;1.1.0 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalameta#trees_2.11;1.1.0->org.scalameta#tokens_2.11;1.1.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalameta#trees_2.11;1.1.0->org.scalameta#tokenizers_2.11;1.1.0 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalameta#trees_2.11;1.1.0->org.scalameta#tokenizers_2.11;1.1.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalameta#scalameta_2.11;1.1.0->org.scalameta#quasiquotes_2.11;1.1.0 [compile->master(compile)][0m
+[0m[[0minfo[0m] [0mResolving org.scalameta#quasiquotes_2.11;1.1.0 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.scalameta#quasiquotes_2.11;1.1.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scalameta#quasiquotes_2.11;1.1.0[0m
+[0m[[0mdebug[0m] [0m	found org.scalameta#quasiquotes_2.11;1.1.0 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalameta#scalameta_2.11;1.1.0->org.scalameta#quasiquotes_2.11;1.1.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalameta#quasiquotes_2.11;1.1.0->org.scala-lang#scala-library;2.11.8 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalameta#quasiquotes_2.11;1.1.0->org.scala-lang#scala-library;2.11.8 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalameta#quasiquotes_2.11;1.1.0->org.scalameta#common_2.11;1.1.0 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalameta#quasiquotes_2.11;1.1.0->org.scalameta#common_2.11;1.1.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalameta#quasiquotes_2.11;1.1.0->org.scalameta#dialects_2.11;1.1.0 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalameta#quasiquotes_2.11;1.1.0->org.scalameta#dialects_2.11;1.1.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalameta#quasiquotes_2.11;1.1.0->org.scalameta#inputs_2.11;1.1.0 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalameta#quasiquotes_2.11;1.1.0->org.scalameta#inputs_2.11;1.1.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalameta#quasiquotes_2.11;1.1.0->org.scalameta#trees_2.11;1.1.0 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalameta#quasiquotes_2.11;1.1.0->org.scalameta#trees_2.11;1.1.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalameta#quasiquotes_2.11;1.1.0->org.scalameta#parsers_2.11;1.1.0 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalameta#quasiquotes_2.11;1.1.0->org.scalameta#parsers_2.11;1.1.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalameta#scalameta_2.11;1.1.0->org.scalameta#tokenizers_2.11;1.1.0 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalameta#scalameta_2.11;1.1.0->org.scalameta#tokenizers_2.11;1.1.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalameta#scalameta_2.11;1.1.0->org.scalameta#transversers_2.11;1.1.0 [compile->master(compile)][0m
+[0m[[0minfo[0m] [0mResolving org.scalameta#transversers_2.11;1.1.0 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.scalameta#transversers_2.11;1.1.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scalameta#transversers_2.11;1.1.0[0m
+[0m[[0mdebug[0m] [0m	found org.scalameta#transversers_2.11;1.1.0 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalameta#scalameta_2.11;1.1.0->org.scalameta#transversers_2.11;1.1.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalameta#transversers_2.11;1.1.0->org.scala-lang#scala-library;2.11.8 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalameta#transversers_2.11;1.1.0->org.scala-lang#scala-library;2.11.8 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalameta#transversers_2.11;1.1.0->org.scalameta#common_2.11;1.1.0 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalameta#transversers_2.11;1.1.0->org.scalameta#common_2.11;1.1.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalameta#transversers_2.11;1.1.0->org.scalameta#trees_2.11;1.1.0 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalameta#transversers_2.11;1.1.0->org.scalameta#trees_2.11;1.1.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalameta#scalameta_2.11;1.1.0->org.scalameta#trees_2.11;1.1.0 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalameta#scalameta_2.11;1.1.0->org.scalameta#trees_2.11;1.1.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalameta#scalameta_2.11;1.1.0->org.scalameta#inline_2.11;1.1.0 [compile->master(compile)][0m
+[0m[[0minfo[0m] [0mResolving org.scalameta#inline_2.11;1.1.0 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.scalameta#inline_2.11;1.1.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scalameta#inline_2.11;1.1.0[0m
+[0m[[0mdebug[0m] [0m	found org.scalameta#inline_2.11;1.1.0 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalameta#scalameta_2.11;1.1.0->org.scalameta#inline_2.11;1.1.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalameta#inline_2.11;1.1.0->org.scala-lang#scala-library;2.11.8 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalameta#inline_2.11;1.1.0->org.scala-lang#scala-library;2.11.8 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalameta#inline_2.11;1.1.0->org.scalameta#inputs_2.11;1.1.0 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalameta#inline_2.11;1.1.0->org.scalameta#inputs_2.11;1.1.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.geirsson#metaconfig_2.11;0.4.10->org.scalameta#scalameta_2.11;1.1.0 [compile->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.geirsson#metaconfig_2.11;0.4.10->org.scalameta#scalameta_2.11;1.1.0 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalameta#scalameta_2.11;1.1.0->org.scala-lang#scala-library;2.11.8 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalameta#scalameta_2.11;1.1.0->org.scala-lang#scala-library;2.11.8 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalameta#scalameta_2.11;1.1.0->org.scalameta#common_2.11;1.1.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalameta#scalameta_2.11;1.1.0->org.scalameta#common_2.11;1.1.0 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalameta#common_2.11;1.1.0->org.scala-lang#scala-library;2.11.8 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalameta#common_2.11;1.1.0->org.scala-lang#scala-library;2.11.8 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalameta#scalameta_2.11;1.1.0->org.scalameta#dialects_2.11;1.1.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalameta#scalameta_2.11;1.1.0->org.scalameta#dialects_2.11;1.1.0 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalameta#dialects_2.11;1.1.0->org.scala-lang#scala-library;2.11.8 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalameta#dialects_2.11;1.1.0->org.scala-lang#scala-library;2.11.8 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalameta#dialects_2.11;1.1.0->org.scalameta#common_2.11;1.1.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalameta#dialects_2.11;1.1.0->org.scalameta#common_2.11;1.1.0 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalameta#scalameta_2.11;1.1.0->org.scalameta#parsers_2.11;1.1.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalameta#scalameta_2.11;1.1.0->org.scalameta#parsers_2.11;1.1.0 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalameta#parsers_2.11;1.1.0->org.scala-lang#scala-library;2.11.8 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalameta#parsers_2.11;1.1.0->org.scala-lang#scala-library;2.11.8 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalameta#parsers_2.11;1.1.0->org.scalameta#common_2.11;1.1.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalameta#parsers_2.11;1.1.0->org.scalameta#common_2.11;1.1.0 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalameta#parsers_2.11;1.1.0->org.scalameta#dialects_2.11;1.1.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalameta#parsers_2.11;1.1.0->org.scalameta#dialects_2.11;1.1.0 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalameta#parsers_2.11;1.1.0->org.scalameta#inputs_2.11;1.1.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalameta#parsers_2.11;1.1.0->org.scalameta#inputs_2.11;1.1.0 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalameta#inputs_2.11;1.1.0->org.scala-lang#scala-library;2.11.8 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalameta#inputs_2.11;1.1.0->org.scala-lang#scala-library;2.11.8 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalameta#inputs_2.11;1.1.0->org.scalameta#common_2.11;1.1.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalameta#inputs_2.11;1.1.0->org.scalameta#common_2.11;1.1.0 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalameta#parsers_2.11;1.1.0->org.scalameta#tokens_2.11;1.1.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalameta#parsers_2.11;1.1.0->org.scalameta#tokens_2.11;1.1.0 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalameta#tokens_2.11;1.1.0->org.scala-lang#scala-library;2.11.8 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalameta#tokens_2.11;1.1.0->org.scala-lang#scala-library;2.11.8 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalameta#tokens_2.11;1.1.0->org.scalameta#common_2.11;1.1.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalameta#tokens_2.11;1.1.0->org.scalameta#common_2.11;1.1.0 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalameta#tokens_2.11;1.1.0->org.scalameta#dialects_2.11;1.1.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalameta#tokens_2.11;1.1.0->org.scalameta#dialects_2.11;1.1.0 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalameta#tokens_2.11;1.1.0->org.scalameta#inputs_2.11;1.1.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalameta#tokens_2.11;1.1.0->org.scalameta#inputs_2.11;1.1.0 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalameta#parsers_2.11;1.1.0->org.scalameta#tokenizers_2.11;1.1.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalameta#parsers_2.11;1.1.0->org.scalameta#tokenizers_2.11;1.1.0 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalameta#tokenizers_2.11;1.1.0->org.scala-lang#scala-library;2.11.8 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalameta#tokenizers_2.11;1.1.0->org.scala-lang#scala-library;2.11.8 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalameta#tokenizers_2.11;1.1.0->org.scalameta#common_2.11;1.1.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalameta#tokenizers_2.11;1.1.0->org.scalameta#common_2.11;1.1.0 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalameta#tokenizers_2.11;1.1.0->org.scalameta#dialects_2.11;1.1.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalameta#tokenizers_2.11;1.1.0->org.scalameta#dialects_2.11;1.1.0 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalameta#tokenizers_2.11;1.1.0->org.scalameta#inputs_2.11;1.1.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalameta#tokenizers_2.11;1.1.0->org.scalameta#inputs_2.11;1.1.0 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalameta#tokenizers_2.11;1.1.0->org.scalameta#tokens_2.11;1.1.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalameta#tokenizers_2.11;1.1.0->org.scalameta#tokens_2.11;1.1.0 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalameta#tokenizers_2.11;1.1.0->com.lihaoyi#scalaparse_2.11;0.3.7 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalameta#tokenizers_2.11;1.1.0->com.lihaoyi#scalaparse_2.11;0.3.7 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.lihaoyi#scalaparse_2.11;0.3.7->org.scala-lang#scala-library;2.11.7 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.lihaoyi#scalaparse_2.11;0.3.7->org.scala-lang#scala-library;2.11.8 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.lihaoyi#scalaparse_2.11;0.3.7->org.scala-lang#scala-library;2.11.8 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.lihaoyi#scalaparse_2.11;0.3.7->com.lihaoyi#fastparse_2.11;0.3.7 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.lihaoyi#scalaparse_2.11;0.3.7->com.lihaoyi#fastparse_2.11;0.3.7 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.lihaoyi#fastparse_2.11;0.3.7->org.scala-lang#scala-library;2.11.7 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.lihaoyi#fastparse_2.11;0.3.7->org.scala-lang#scala-library;2.11.8 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.lihaoyi#fastparse_2.11;0.3.7->org.scala-lang#scala-library;2.11.8 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.lihaoyi#fastparse_2.11;0.3.7->com.lihaoyi#fastparse-utils_2.11;0.3.7 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.lihaoyi#fastparse_2.11;0.3.7->com.lihaoyi#fastparse-utils_2.11;0.3.7 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.lihaoyi#fastparse-utils_2.11;0.3.7->org.scala-lang#scala-library;2.11.7 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.lihaoyi#fastparse-utils_2.11;0.3.7->org.scala-lang#scala-library;2.11.8 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.lihaoyi#fastparse-utils_2.11;0.3.7->org.scala-lang#scala-library;2.11.8 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.lihaoyi#fastparse-utils_2.11;0.3.7->com.lihaoyi#sourcecode_2.11;0.1.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.lihaoyi#fastparse_2.11;0.3.7->com.lihaoyi#sourcecode_2.11;0.1.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.lihaoyi#scalaparse_2.11;0.3.7->com.lihaoyi#sourcecode_2.11;0.1.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalameta#parsers_2.11;1.1.0->org.scalameta#trees_2.11;1.1.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalameta#parsers_2.11;1.1.0->org.scalameta#trees_2.11;1.1.0 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalameta#trees_2.11;1.1.0->org.scala-lang#scala-library;2.11.8 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalameta#trees_2.11;1.1.0->org.scala-lang#scala-library;2.11.8 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalameta#trees_2.11;1.1.0->org.scalameta#common_2.11;1.1.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalameta#trees_2.11;1.1.0->org.scalameta#common_2.11;1.1.0 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalameta#trees_2.11;1.1.0->org.scalameta#dialects_2.11;1.1.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalameta#trees_2.11;1.1.0->org.scalameta#dialects_2.11;1.1.0 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalameta#trees_2.11;1.1.0->org.scalameta#inputs_2.11;1.1.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalameta#trees_2.11;1.1.0->org.scalameta#inputs_2.11;1.1.0 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalameta#trees_2.11;1.1.0->org.scalameta#tokens_2.11;1.1.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalameta#trees_2.11;1.1.0->org.scalameta#tokens_2.11;1.1.0 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalameta#trees_2.11;1.1.0->org.scalameta#tokenizers_2.11;1.1.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalameta#trees_2.11;1.1.0->org.scalameta#tokenizers_2.11;1.1.0 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalameta#scalameta_2.11;1.1.0->org.scalameta#quasiquotes_2.11;1.1.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalameta#scalameta_2.11;1.1.0->org.scalameta#quasiquotes_2.11;1.1.0 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalameta#quasiquotes_2.11;1.1.0->org.scala-lang#scala-library;2.11.8 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalameta#quasiquotes_2.11;1.1.0->org.scala-lang#scala-library;2.11.8 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalameta#quasiquotes_2.11;1.1.0->org.scalameta#common_2.11;1.1.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalameta#quasiquotes_2.11;1.1.0->org.scalameta#common_2.11;1.1.0 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalameta#quasiquotes_2.11;1.1.0->org.scalameta#dialects_2.11;1.1.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalameta#quasiquotes_2.11;1.1.0->org.scalameta#dialects_2.11;1.1.0 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalameta#quasiquotes_2.11;1.1.0->org.scalameta#inputs_2.11;1.1.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalameta#quasiquotes_2.11;1.1.0->org.scalameta#inputs_2.11;1.1.0 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalameta#quasiquotes_2.11;1.1.0->org.scalameta#trees_2.11;1.1.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalameta#quasiquotes_2.11;1.1.0->org.scalameta#trees_2.11;1.1.0 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalameta#quasiquotes_2.11;1.1.0->org.scalameta#parsers_2.11;1.1.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalameta#quasiquotes_2.11;1.1.0->org.scalameta#parsers_2.11;1.1.0 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalameta#scalameta_2.11;1.1.0->org.scalameta#tokenizers_2.11;1.1.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalameta#scalameta_2.11;1.1.0->org.scalameta#tokenizers_2.11;1.1.0 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalameta#scalameta_2.11;1.1.0->org.scalameta#transversers_2.11;1.1.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalameta#scalameta_2.11;1.1.0->org.scalameta#transversers_2.11;1.1.0 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalameta#transversers_2.11;1.1.0->org.scala-lang#scala-library;2.11.8 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalameta#transversers_2.11;1.1.0->org.scala-lang#scala-library;2.11.8 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalameta#transversers_2.11;1.1.0->org.scalameta#common_2.11;1.1.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalameta#transversers_2.11;1.1.0->org.scalameta#common_2.11;1.1.0 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalameta#transversers_2.11;1.1.0->org.scalameta#trees_2.11;1.1.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalameta#transversers_2.11;1.1.0->org.scalameta#trees_2.11;1.1.0 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalameta#scalameta_2.11;1.1.0->org.scalameta#trees_2.11;1.1.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalameta#scalameta_2.11;1.1.0->org.scalameta#trees_2.11;1.1.0 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalameta#scalameta_2.11;1.1.0->org.scalameta#inline_2.11;1.1.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalameta#scalameta_2.11;1.1.0->org.scalameta#inline_2.11;1.1.0 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalameta#inline_2.11;1.1.0->org.scala-lang#scala-library;2.11.8 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalameta#inline_2.11;1.1.0->org.scala-lang#scala-library;2.11.8 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalameta#inline_2.11;1.1.0->org.scalameta#inputs_2.11;1.1.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalameta#inline_2.11;1.1.0->org.scalameta#inputs_2.11;1.1.0 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.geirsson#scalafmt-core_2.11;0.4.10->com.geirsson#scalafmt-utils_2.11;0.4.10 [compile->master(compile)][0m
+[0m[[0minfo[0m] [0mResolving com.geirsson#scalafmt-utils_2.11;0.4.10 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: com.geirsson#scalafmt-utils_2.11;0.4.10 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: com.geirsson#scalafmt-utils_2.11;0.4.10[0m
+[0m[[0mdebug[0m] [0m	found com.geirsson#scalafmt-utils_2.11;0.4.10 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m	[0.4.10] com.geirsson#scalafmt-utils_2.11;0.4.10[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.geirsson#scalafmt-core_2.11;0.4.10->com.geirsson#scalafmt-utils_2.11;0.4.10 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.geirsson#scalafmt-utils_2.11;0.4.10->org.scala-lang#scala-library;2.11.8 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.geirsson#scalafmt-utils_2.11;0.4.10->org.scala-lang#scala-library;2.11.8 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.geirsson#scalafmt-utils_2.11;0.4.10->com.typesafe#config;1.2.1 [compile->master(compile)][0m
+[0m[[0minfo[0m] [0mResolving com.typesafe#config;1.2.1 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: com.typesafe#config;1.2.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: com.typesafe#config;1.2.1[0m
+[0m[[0mdebug[0m] [0m	found com.typesafe#config;1.2.1 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.geirsson#scalafmt-utils_2.11;0.4.10->com.typesafe#config;1.2.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.geirsson#scalafmt-core_2.11;0.4.10->org.scalameta#scalameta_2.11;1.1.0 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.geirsson#scalafmt-core_2.11;0.4.10->org.scalameta#scalameta_2.11;1.1.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.geirsson#scalafmt-core_2.11;0.4.10->com.lihaoyi#sourcecode_2.11;0.1.2 [compile->master(compile)][0m
+[0m[[0minfo[0m] [0mResolving com.lihaoyi#sourcecode_2.11;0.1.2 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: com.lihaoyi#sourcecode_2.11;0.1.2 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: com.lihaoyi#sourcecode_2.11;0.1.2[0m
+[0m[[0mdebug[0m] [0m	found com.lihaoyi#sourcecode_2.11;0.1.2 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.geirsson#scalafmt-core_2.11;0.4.10->com.lihaoyi#sourcecode_2.11;0.1.2 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.lihaoyi#sourcecode_2.11;0.1.2->org.scala-lang#scala-library;2.11.7 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.lihaoyi#sourcecode_2.11;0.1.2->org.scala-lang#scala-library;2.11.8 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.lihaoyi#sourcecode_2.11;0.1.2->org.scala-lang#scala-library;2.11.7 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.lihaoyi#sourcecode_2.11;0.1.2->org.scala-lang#scala-library;2.11.8 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.geirsson#scalafmt-core_2.11;0.4.10->com.lihaoyi#sourcecode_2.11;0.1.2 [compile->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.geirsson#scalafmt-core_2.11;0.4.10->com.lihaoyi#sourcecode_2.11;0.1.2 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.lihaoyi#sourcecode_2.11;0.1.2->org.scala-lang#scala-library;2.11.7 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.lihaoyi#sourcecode_2.11;0.1.2->org.scala-lang#scala-library;2.11.8 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.lihaoyi#sourcecode_2.11;0.1.2->org.scala-lang#scala-library;2.11.8 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.geirsson#scalafmt-core_2.11;0.4.10->org.scala-lang#scala-reflect;2.11.8 [compile->master(compile)][0m
+[0m[[0minfo[0m] [0mResolving org.scala-lang#scala-reflect;2.11.8 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.scala-lang#scala-reflect;2.11.8 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scala-lang#scala-reflect;2.11.8[0m
+[0m[[0mdebug[0m] [0m	found org.scala-lang#scala-reflect;2.11.8 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m	[2.11.8] org.scala-lang#scala-reflect;2.11.8[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.geirsson#scalafmt-core_2.11;0.4.10->org.scala-lang#scala-reflect;2.11.8 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.11.8->org.scala-lang#scala-library;2.11.8 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.11.8->org.scala-lang#scala-library;2.11.8 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.geirsson#scalafmt-core_2.11;0.4.10->com.typesafe#config;1.2.1 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.geirsson#scalafmt-core_2.11;0.4.10->com.typesafe#config;1.2.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.geirsson#scalafmt-cli_2.11;0.4.10->com.geirsson#scalafmt-core_2.11;0.4.10 [compile->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.geirsson#scalafmt-cli_2.11;0.4.10->com.geirsson#scalafmt-core_2.11;0.4.10 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.geirsson#scalafmt-core_2.11;0.4.10->org.scala-lang#scala-library;2.11.8 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.geirsson#scalafmt-core_2.11;0.4.10->org.scala-lang#scala-library;2.11.8 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.geirsson#scalafmt-core_2.11;0.4.10->com.geirsson#metaconfig_2.11;0.4.10 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.geirsson#scalafmt-core_2.11;0.4.10->com.geirsson#metaconfig_2.11;0.4.10 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.geirsson#metaconfig_2.11;0.4.10->org.scala-lang#scala-library;2.11.8 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.geirsson#metaconfig_2.11;0.4.10->org.scala-lang#scala-library;2.11.8 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.geirsson#metaconfig_2.11;0.4.10->org.scalameta#scalameta_2.11;1.1.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.geirsson#metaconfig_2.11;0.4.10->org.scalameta#scalameta_2.11;1.1.0 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.geirsson#scalafmt-core_2.11;0.4.10->com.geirsson#scalafmt-utils_2.11;0.4.10 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.geirsson#scalafmt-core_2.11;0.4.10->com.geirsson#scalafmt-utils_2.11;0.4.10 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.geirsson#scalafmt-utils_2.11;0.4.10->org.scala-lang#scala-library;2.11.8 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.geirsson#scalafmt-utils_2.11;0.4.10->org.scala-lang#scala-library;2.11.8 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.geirsson#scalafmt-utils_2.11;0.4.10->com.typesafe#config;1.2.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.geirsson#scalafmt-utils_2.11;0.4.10->com.typesafe#config;1.2.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.geirsson#scalafmt-core_2.11;0.4.10->org.scalameta#scalameta_2.11;1.1.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.geirsson#scalafmt-core_2.11;0.4.10->org.scalameta#scalameta_2.11;1.1.0 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.geirsson#scalafmt-core_2.11;0.4.10->com.lihaoyi#sourcecode_2.11;0.1.2 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.geirsson#scalafmt-core_2.11;0.4.10->com.lihaoyi#sourcecode_2.11;0.1.2 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.geirsson#scalafmt-core_2.11;0.4.10->org.scala-lang#scala-reflect;2.11.8 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.geirsson#scalafmt-core_2.11;0.4.10->org.scala-lang#scala-reflect;2.11.8 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.11.8->org.scala-lang#scala-library;2.11.8 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.11.8->org.scala-lang#scala-library;2.11.8 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.geirsson#scalafmt-core_2.11;0.4.10->com.typesafe#config;1.2.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.geirsson#scalafmt-core_2.11;0.4.10->com.typesafe#config;1.2.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.geirsson#scalafmt-cli_2.11;0.4.10->org.scalameta#scalameta_2.11;1.1.0 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.geirsson#scalafmt-cli_2.11;0.4.10->org.scalameta#scalameta_2.11;1.1.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.geirsson#scalafmt-cli_2.11;0.4.10->com.martiansoftware#nailgun-server;0.9.1 [compile->master(compile)][0m
+[0m[[0minfo[0m] [0mResolving com.martiansoftware#nailgun-server;0.9.1 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: com.martiansoftware#nailgun-server;0.9.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: com.martiansoftware#nailgun-server;0.9.1[0m
+[0m[[0mdebug[0m] [0m	found com.martiansoftware#nailgun-server;0.9.1 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.geirsson#scalafmt-cli_2.11;0.4.10->com.martiansoftware#nailgun-server;0.9.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.geirsson#scalafmt-cli_2.11;0.4.10->com.martiansoftware#nailgun-server;0.9.1 [compile->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.geirsson#scalafmt-cli_2.11;0.4.10->com.martiansoftware#nailgun-server;0.9.1 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.geirsson#scalafmt-cli_2.11;0.4.10->com.github.scopt#scopt_2.11;3.5.0 [compile->master(compile)][0m
+[0m[[0minfo[0m] [0mResolving com.github.scopt#scopt_2.11;3.5.0 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: com.github.scopt#scopt_2.11;3.5.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: com.github.scopt#scopt_2.11;3.5.0[0m
+[0m[[0mdebug[0m] [0m	found com.github.scopt#scopt_2.11;3.5.0 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.geirsson#scalafmt-cli_2.11;0.4.10->com.github.scopt#scopt_2.11;3.5.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.github.scopt#scopt_2.11;3.5.0->org.scala-lang#scala-library;2.11.8 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.github.scopt#scopt_2.11;3.5.0->org.scala-lang#scala-library;2.11.8 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.geirsson#scalafmt-cli_2.11;0.4.10->com.github.scopt#scopt_2.11;3.5.0 [compile->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.geirsson#scalafmt-cli_2.11;0.4.10->com.github.scopt#scopt_2.11;3.5.0 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.github.scopt#scopt_2.11;3.5.0->org.scala-lang#scala-library;2.11.8 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.github.scopt#scopt_2.11;3.5.0->org.scala-lang#scala-library;2.11.8 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.geirsson#scalafmt-cli_2.11;0.4.10->org.scala-lang#scala-library;2.11.8 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.geirsson#scalafmt-cli_2.11;0.4.10->org.scala-lang#scala-library;2.11.8 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.geirsson#scalafmt-cli_2.11;0.4.10->com.geirsson#scalafmt-core_2.11;0.4.10 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.geirsson#scalafmt-cli_2.11;0.4.10->com.geirsson#scalafmt-core_2.11;0.4.10 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.geirsson#scalafmt-cli_2.11;0.4.10->org.scalameta#scalameta_2.11;1.1.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.geirsson#scalafmt-cli_2.11;0.4.10->org.scalameta#scalameta_2.11;1.1.0 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.geirsson#scalafmt-cli_2.11;0.4.10->com.martiansoftware#nailgun-server;0.9.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.geirsson#scalafmt-cli_2.11;0.4.10->com.martiansoftware#nailgun-server;0.9.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.geirsson#scalafmt-cli_2.11;0.4.10->com.github.scopt#scopt_2.11;3.5.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.geirsson#scalafmt-cli_2.11;0.4.10->com.github.scopt#scopt_2.11;3.5.0 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scala-gitrev_2.10;06f69295103b28836067bcd604a604be0b071577-SNAPSHOT->com.geirsson#scalafmt-cli_2.11;0.4.10 [scalafmt->master][0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'ensime-internal'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#scala-gitrev_2.10;06f69295103b28836067bcd604a604be0b071577-SNAPSHOT [ensime-internal][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scala-gitrev_2.10;06f69295103b28836067bcd604a604be0b071577-SNAPSHOT->org.scala-lang#scala-compiler;2.10.6 [ensime-internal->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scala-gitrev_2.10;06f69295103b28836067bcd604a604be0b071577-SNAPSHOT->org.scala-lang#scala-compiler;2.10.6 [ensime-internal->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scala-gitrev_2.10;06f69295103b28836067bcd604a604be0b071577-SNAPSHOT->org.scala-lang#scala-compiler;2.10.6 [ensime-internal->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scala-gitrev_2.10;06f69295103b28836067bcd604a604be0b071577-SNAPSHOT->org.scala-lang#scala-compiler;2.10.6 [ensime-internal->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scala-gitrev_2.10;06f69295103b28836067bcd604a604be0b071577-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [ensime-internal->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scala-gitrev_2.10;06f69295103b28836067bcd604a604be0b071577-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [ensime-internal->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scala-gitrev_2.10;06f69295103b28836067bcd604a604be0b071577-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [ensime-internal->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scala-gitrev_2.10;06f69295103b28836067bcd604a604be0b071577-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [ensime-internal->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scala-gitrev_2.10;06f69295103b28836067bcd604a604be0b071577-SNAPSHOT->org.scala-lang#scala-reflect;2.10.6 [ensime-internal->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scala-gitrev_2.10;06f69295103b28836067bcd604a604be0b071577-SNAPSHOT->org.scala-lang#scala-reflect;2.10.6 [ensime-internal->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scala-gitrev_2.10;06f69295103b28836067bcd604a604be0b071577-SNAPSHOT->org.scala-lang#scala-reflect;2.10.6 [ensime-internal->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scala-gitrev_2.10;06f69295103b28836067bcd604a604be0b071577-SNAPSHOT->org.scala-lang#scala-reflect;2.10.6 [ensime-internal->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scala-gitrev_2.10;06f69295103b28836067bcd604a604be0b071577-SNAPSHOT->org.scala-lang#scalap;2.10.6 [ensime-internal->default(compile)][0m
+[0m[[0minfo[0m] [0mResolving org.scala-lang#scalap;2.10.6 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.scala-lang#scalap;2.10.6 {ensime-internal=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scala-lang#scalap;2.10.6[0m
+[0m[[0mdebug[0m] [0m	found org.scala-lang#scalap;2.10.6 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scala-gitrev_2.10;06f69295103b28836067bcd604a604be0b071577-SNAPSHOT->org.scala-lang#scalap;2.10.6 [ensime-internal->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scala-gitrev_2.10;06f69295103b28836067bcd604a604be0b071577-SNAPSHOT->org.scala-lang#scalap;2.10.6 [ensime-internal->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scala-gitrev_2.10;06f69295103b28836067bcd604a604be0b071577-SNAPSHOT->org.scala-lang#scalap;2.10.6 [ensime-internal->master][0m
+[0m[[0mdebug[0m] [0m	resolved ivy file produced in cache[0m
+[0m[[0mdebug[0m] [0m:: downloading artifacts ::[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#scala-library;2.10.6!scala-library.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.typelevel#macro-compat_2.10;1.1.1!macro-compat_2.10.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scalamacros#quasiquotes_2.10;2.1.0!quasiquotes_2.10.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#scala-reflect;2.10.4!scala-reflect.jar[0m
+[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/org/scalacheck/scalacheck_2.10/1.13.4/scalacheck_2.10-1.13.4.jar[0m
+[0m[[0minfo[0m] [0mdownloading https://repo1.maven.org/maven2/org/scalacheck/scalacheck_2.10/1.13.4/scalacheck_2.10-1.13.4.jar ...[0m
+[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/scalacheck/scalacheck_2.10/1.13.4/scalacheck_2.10-1.13.4.jar[0m
+[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/scalacheck/scalacheck_2.10/1.13.4/scalacheck_2.10-1.13.4.jar.sha1[0m
+[0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/org/scalacheck/scalacheck_2.10/1.13.4/scalacheck_2.10-1.13.4.jar[0m
+[0m[[0minfo[0m] [0m	[SUCCESSFUL ] org.scalacheck#scalacheck_2.10;1.13.4!scalacheck_2.10.jar (6227ms)[0m
+[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/org/scalatest/scalatest_2.10/3.0.1/scalatest_2.10-3.0.1.jar[0m
+[0m[[0minfo[0m] [0mdownloading https://repo1.maven.org/maven2/org/scalatest/scalatest_2.10/3.0.1/scalatest_2.10-3.0.1.jar ...[0m
+[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/scalatest/scalatest_2.10/3.0.1/scalatest_2.10-3.0.1.jar[0m
+[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/scalatest/scalatest_2.10/3.0.1/scalatest_2.10-3.0.1.jar.sha1[0m
+[0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/org/scalatest/scalatest_2.10/3.0.1/scalatest_2.10-3.0.1.jar[0m
+[0m[[0minfo[0m] [0m	[SUCCESSFUL ] org.scalatest#scalatest_2.10;3.0.1!scalatest_2.10.jar(bundle) (6000ms)[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-sbt#test-interface;1.0!test-interface.jar[0m
+[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/org/scalactic/scalactic_2.10/3.0.1/scalactic_2.10-3.0.1.jar[0m
+[0m[[0minfo[0m] [0mdownloading https://repo1.maven.org/maven2/org/scalactic/scalactic_2.10/3.0.1/scalactic_2.10-3.0.1.jar ...[0m
+[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/scalactic/scalactic_2.10/3.0.1/scalactic_2.10-3.0.1.jar[0m
+[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/scalactic/scalactic_2.10/3.0.1/scalactic_2.10-3.0.1.jar.sha1[0m
+[0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/org/scalactic/scalactic_2.10/3.0.1/scalactic_2.10-3.0.1.jar[0m
+[0m[[0minfo[0m] [0m	[SUCCESSFUL ] org.scalactic#scalactic_2.10;3.0.1!scalactic_2.10.jar(bundle) (1246ms)[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#scala-reflect;2.10.6!scala-reflect.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#scala-compiler;2.10.6!scala-compiler.jar[0m
+[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/org/scalamacros/paradise_2.10.6/2.1.0/paradise_2.10.6-2.1.0.jar[0m
+[0m[[0minfo[0m] [0mdownloading https://repo1.maven.org/maven2/org/scalamacros/paradise_2.10.6/2.1.0/paradise_2.10.6-2.1.0.jar ...[0m
+[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/scalamacros/paradise_2.10.6/2.1.0/paradise_2.10.6-2.1.0.jar[0m
+[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/scalamacros/paradise_2.10.6/2.1.0/paradise_2.10.6-2.1.0.jar.sha1[0m
+[0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/org/scalamacros/paradise_2.10.6/2.1.0/paradise_2.10.6-2.1.0.jar[0m
+[0m[[0minfo[0m] [0m	[SUCCESSFUL ] org.scalamacros#paradise_2.10.6;2.1.0!paradise_2.10.6.jar (1838ms)[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#jline;2.10.6!jline.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.fusesource.jansi#jansi;1.4!jansi.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#scala-library;2.11.8!scala-library.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.geirsson#scalafmt-cli_2.11;0.4.10!scalafmt-cli_2.11.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.geirsson#scalafmt-core_2.11;0.4.10!scalafmt-core_2.11.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scalameta#scalameta_2.11;1.1.0!scalameta_2.11.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.martiansoftware#nailgun-server;0.9.1!nailgun-server.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.github.scopt#scopt_2.11;3.5.0!scopt_2.11.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.geirsson#metaconfig_2.11;0.4.10!metaconfig_2.11.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.geirsson#scalafmt-utils_2.11;0.4.10!scalafmt-utils_2.11.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.lihaoyi#sourcecode_2.11;0.1.2!sourcecode_2.11.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#scala-reflect;2.11.8!scala-reflect.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.typesafe#config;1.2.1!config.jar(bundle)[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scalameta#common_2.11;1.1.0!common_2.11.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scalameta#dialects_2.11;1.1.0!dialects_2.11.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scalameta#parsers_2.11;1.1.0!parsers_2.11.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scalameta#quasiquotes_2.11;1.1.0!quasiquotes_2.11.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scalameta#tokenizers_2.11;1.1.0!tokenizers_2.11.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scalameta#transversers_2.11;1.1.0!transversers_2.11.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scalameta#trees_2.11;1.1.0!trees_2.11.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scalameta#inline_2.11;1.1.0!inline_2.11.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scalameta#inputs_2.11;1.1.0!inputs_2.11.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scalameta#tokens_2.11;1.1.0!tokens_2.11.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.lihaoyi#scalaparse_2.11;0.3.7!scalaparse_2.11.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.lihaoyi#fastparse_2.11;0.3.7!fastparse_2.11.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.lihaoyi#fastparse-utils_2.11;0.3.7!fastparse-utils_2.11.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#scalap;2.10.6!scalap.jar[0m
+[0m[[0mdebug[0m] [0m:: resolution report :: resolve 5506ms :: artifacts dl 15327ms[0m
+[0m[[0mdebug[0m] [0m	report for default#scala-gitrev_2.10;06f69295103b28836067bcd604a604be0b071577-SNAPSHOT compile produced in /home/aaronlevin/dev/soundcloud/scala-gitrev/target/resolution-cache/reports/default-scala-gitrev_2.10-compile.xml[0m
+[0m[[0mdebug[0m] [0m	report for default#scala-gitrev_2.10;06f69295103b28836067bcd604a604be0b071577-SNAPSHOT runtime produced in /home/aaronlevin/dev/soundcloud/scala-gitrev/target/resolution-cache/reports/default-scala-gitrev_2.10-runtime.xml[0m
+[0m[[0mdebug[0m] [0m	report for default#scala-gitrev_2.10;06f69295103b28836067bcd604a604be0b071577-SNAPSHOT test produced in /home/aaronlevin/dev/soundcloud/scala-gitrev/target/resolution-cache/reports/default-scala-gitrev_2.10-test.xml[0m
+[0m[[0mdebug[0m] [0m	report for default#scala-gitrev_2.10;06f69295103b28836067bcd604a604be0b071577-SNAPSHOT provided produced in /home/aaronlevin/dev/soundcloud/scala-gitrev/target/resolution-cache/reports/default-scala-gitrev_2.10-provided.xml[0m
+[0m[[0mdebug[0m] [0m	report for default#scala-gitrev_2.10;06f69295103b28836067bcd604a604be0b071577-SNAPSHOT optional produced in /home/aaronlevin/dev/soundcloud/scala-gitrev/target/resolution-cache/reports/default-scala-gitrev_2.10-optional.xml[0m
+[0m[[0mdebug[0m] [0m	report for default#scala-gitrev_2.10;06f69295103b28836067bcd604a604be0b071577-SNAPSHOT compile-internal produced in /home/aaronlevin/dev/soundcloud/scala-gitrev/target/resolution-cache/reports/default-scala-gitrev_2.10-compile-internal.xml[0m
+[0m[[0mdebug[0m] [0m	report for default#scala-gitrev_2.10;06f69295103b28836067bcd604a604be0b071577-SNAPSHOT runtime-internal produced in /home/aaronlevin/dev/soundcloud/scala-gitrev/target/resolution-cache/reports/default-scala-gitrev_2.10-runtime-internal.xml[0m
+[0m[[0mdebug[0m] [0m	report for default#scala-gitrev_2.10;06f69295103b28836067bcd604a604be0b071577-SNAPSHOT test-internal produced in /home/aaronlevin/dev/soundcloud/scala-gitrev/target/resolution-cache/reports/default-scala-gitrev_2.10-test-internal.xml[0m
+[0m[[0mdebug[0m] [0m	report for default#scala-gitrev_2.10;06f69295103b28836067bcd604a604be0b071577-SNAPSHOT plugin produced in /home/aaronlevin/dev/soundcloud/scala-gitrev/target/resolution-cache/reports/default-scala-gitrev_2.10-plugin.xml[0m
+[0m[[0mdebug[0m] [0m	report for default#scala-gitrev_2.10;06f69295103b28836067bcd604a604be0b071577-SNAPSHOT sources produced in /home/aaronlevin/dev/soundcloud/scala-gitrev/target/resolution-cache/reports/default-scala-gitrev_2.10-sources.xml[0m
+[0m[[0mdebug[0m] [0m	report for default#scala-gitrev_2.10;06f69295103b28836067bcd604a604be0b071577-SNAPSHOT docs produced in /home/aaronlevin/dev/soundcloud/scala-gitrev/target/resolution-cache/reports/default-scala-gitrev_2.10-docs.xml[0m
+[0m[[0mdebug[0m] [0m	report for default#scala-gitrev_2.10;06f69295103b28836067bcd604a604be0b071577-SNAPSHOT pom produced in /home/aaronlevin/dev/soundcloud/scala-gitrev/target/resolution-cache/reports/default-scala-gitrev_2.10-pom.xml[0m
+[0m[[0mdebug[0m] [0m	report for default#scala-gitrev_2.10;06f69295103b28836067bcd604a604be0b071577-SNAPSHOT scala-tool produced in /home/aaronlevin/dev/soundcloud/scala-gitrev/target/resolution-cache/reports/default-scala-gitrev_2.10-scala-tool.xml[0m
+[0m[[0mdebug[0m] [0m	report for default#scala-gitrev_2.10;06f69295103b28836067bcd604a604be0b071577-SNAPSHOT scalafmt produced in /home/aaronlevin/dev/soundcloud/scala-gitrev/target/resolution-cache/reports/default-scala-gitrev_2.10-scalafmt.xml[0m
+[0m[[0mdebug[0m] [0m	report for default#scala-gitrev_2.10;06f69295103b28836067bcd604a604be0b071577-SNAPSHOT ensime-internal produced in /home/aaronlevin/dev/soundcloud/scala-gitrev/target/resolution-cache/reports/default-scala-gitrev_2.10-ensime-internal.xml[0m
+[0m[[0mdebug[0m] [0m	resolve done (5506ms resolve - 15327ms download)[0m
+[0m[[0minfo[0m] [0mDone updating.[0m

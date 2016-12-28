@@ -1,0 +1,5 @@
+[0m[[0mdebug[0m] [0mOther repositories:[0m
+[0m[[0mdebug[0m] [0mDefault repositories:[0m
+[0m[[0mdebug[0m] [0mUsing inline dependencies specified in Scala.[0m
+[0m[[33mwarn[0m] [0mBinary version (2.11) for dependency org.scala-lang#scala-library;2.11.8[0m
+[0m[[33mwarn[0m] [0m	in default#scala-gitrev_2.10;06f69295103b28836067bcd604a604be0b071577-SNAPSHOT differs from Scala binary version in project (2.10).[0m

@@ -1,0 +1,169 @@
+[0m[[0mdebug[0m] [0mAbout to create/update header for /home/aaronlevin/dev/soundcloud/scala-gitrev/src/main/scala/default/scala/gitrev/package.scala[0m
+[0m[[0mdebug[0m] [0mFirst line of file is:[0m
+[0m[[0mdebug[0m] [0mText of file is:[0m
+[0m[[0mdebug[0m] [0m/*[0m
+[0m[[0mdebug[0m] [0m * Copyright 2016 aaronlevin[0m
+[0m[[0mdebug[0m] [0m *[0m
+[0m[[0mdebug[0m] [0m * Licensed under the Apache License, Version 2.0 (the "License");[0m
+[0m[[0mdebug[0m] [0m * you may not use this file except in compliance with the License.[0m
+[0m[[0mdebug[0m] [0m * You may obtain a copy of the License at[0m
+[0m[[0mdebug[0m] [0m *[0m
+[0m[[0mdebug[0m] [0m *     http://www.apache.org/licenses/LICENSE-2.0[0m
+[0m[[0mdebug[0m] [0m *[0m
+[0m[[0mdebug[0m] [0m * Unless required by applicable law or agreed to in writing, software[0m
+[0m[[0mdebug[0m] [0m * distributed under the License is distributed on an "AS IS" BASIS,[0m
+[0m[[0mdebug[0m] [0m * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.[0m
+[0m[[0mdebug[0m] [0m * See the License for the specific language governing permissions and[0m
+[0m[[0mdebug[0m] [0m * limitations under the License.[0m
+[0m[[0mdebug[0m] [0m */[0m
+[0m[[0mdebug[0m] [0m[0m
+[0m[[0mdebug[0m] [0mpackage default.scala[0m
+[0m[[0mdebug[0m] [0m[0m
+[0m[[0mdebug[0m] [0mpackage object gitrev {[0m
+[0m[[0mdebug[0m] [0m[0m
+[0m[[0mdebug[0m] [0m  type Traversable[+A] = scala.collection.immutable.Traversable[A][0m
+[0m[[0mdebug[0m] [0m  type Iterable[+A]    = scala.collection.immutable.Iterable[A][0m
+[0m[[0mdebug[0m] [0m  type Seq[+A]         = scala.collection.immutable.Seq[A][0m
+[0m[[0mdebug[0m] [0m  type IndexedSeq[+A]  = scala.collection.immutable.IndexedSeq[A][0m
+[0m[[0mdebug[0m] [0m}[0m
+[0m[[0mdebug[0m] [0mModified text of file is:[0m
+[0m[[0mdebug[0m] [0mNone[0m
+[0m[[0mdebug[0m] [0mAbout to create/update header for /home/aaronlevin/dev/soundcloud/scala-gitrev/src/main/scala/com/soundcloud/gitrev/GitRev.scala[0m
+[0m[[0mdebug[0m] [0mFirst line of file is:[0m
+[0m[[0mdebug[0m] [0mText of file is:[0m
+[0m[[0mdebug[0m] [0m/*[0m
+[0m[[0mdebug[0m] [0m * Copyright 2016 aaronlevin[0m
+[0m[[0mdebug[0m] [0m *[0m
+[0m[[0mdebug[0m] [0m * Licensed under the Apache License, Version 2.0 (the "License");[0m
+[0m[[0mdebug[0m] [0m * you may not use this file except in compliance with the License.[0m
+[0m[[0mdebug[0m] [0m * You may obtain a copy of the License at[0m
+[0m[[0mdebug[0m] [0m *[0m
+[0m[[0mdebug[0m] [0m *     http://www.apache.org/licenses/LICENSE-2.0[0m
+[0m[[0mdebug[0m] [0m *[0m
+[0m[[0mdebug[0m] [0m * Unless required by applicable law or agreed to in writing, software[0m
+[0m[[0mdebug[0m] [0m * distributed under the License is distributed on an "AS IS" BASIS,[0m
+[0m[[0mdebug[0m] [0m * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.[0m
+[0m[[0mdebug[0m] [0m * See the License for the specific language governing permissions and[0m
+[0m[[0mdebug[0m] [0m * limitations under the License.[0m
+[0m[[0mdebug[0m] [0m */[0m
+[0m[[0mdebug[0m] [0m[0m
+[0m[[0mdebug[0m] [0mpackage com.soundcloud.gitrev[0m
+[0m[[0mdebug[0m] [0m[0m
+[0m[[0mdebug[0m] [0mobject GitRev {}[0m
+[0m[[0mdebug[0m] [0mModified text of file is:[0m
+[0m[[0mdebug[0m] [0mNone[0m
+[0m[[0mdebug[0m] [0mAbout to create/update header for /home/aaronlevin/dev/soundcloud/scala-gitrev/src/main/scala/com/soundcloud/gitrev/package.scala[0m
+[0m[[0mdebug[0m] [0mFirst line of file is:[0m
+[0m[[0mdebug[0m] [0mText of file is:[0m
+[0m[[0mdebug[0m] [0m/*[0m
+[0m[[0mdebug[0m] [0m * Copyright 2016 aaronlevin[0m
+[0m[[0mdebug[0m] [0m *[0m
+[0m[[0mdebug[0m] [0m * Licensed under the Apache License, Version 2.0 (the "License");[0m
+[0m[[0mdebug[0m] [0m * you may not use this file except in compliance with the License.[0m
+[0m[[0mdebug[0m] [0m * You may obtain a copy of the License at[0m
+[0m[[0mdebug[0m] [0m *[0m
+[0m[[0mdebug[0m] [0m *     http://www.apache.org/licenses/LICENSE-2.0[0m
+[0m[[0mdebug[0m] [0m *[0m
+[0m[[0mdebug[0m] [0m * Unless required by applicable law or agreed to in writing, software[0m
+[0m[[0mdebug[0m] [0m * distributed under the License is distributed on an "AS IS" BASIS,[0m
+[0m[[0mdebug[0m] [0m * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.[0m
+[0m[[0mdebug[0m] [0m * See the License for the specific language governing permissions and[0m
+[0m[[0mdebug[0m] [0m * limitations under the License.[0m
+[0m[[0mdebug[0m] [0m */[0m
+[0m[[0mdebug[0m] [0m[0m
+[0m[[0mdebug[0m] [0mpackage com.soundcloud[0m
+[0m[[0mdebug[0m] [0m[0m
+[0m[[0mdebug[0m] [0mimport scala.sys.process.Process[0m
+[0m[[0mdebug[0m] [0m[0m
+[0m[[0mdebug[0m] [0mpackage object gitrev {[0m
+[0m[[0mdebug[0m] [0m[0m
+[0m[[0mdebug[0m] [0m  import scala.language.experimental.macros[0m
+[0m[[0mdebug[0m] [0m  import scala.reflect.macros.blackbox.Context[0m
+[0m[[0mdebug[0m] [0m[0m
+[0m[[0mdebug[0m] [0m  /**[0m
+[0m[[0mdebug[0m] [0m    * a Macro to produce the shortened git hash[0m
+[0m[[0mdebug[0m] [0m    */[0m
+[0m[[0mdebug[0m] [0m  def gitHashShort: String = macro gitHashShort_impl[0m
+[0m[[0mdebug[0m] [0m[0m
+[0m[[0mdebug[0m] [0m  /**[0m
+[0m[[0mdebug[0m] [0m    * a Macro to produce the full git hash[0m
+[0m[[0mdebug[0m] [0m    */[0m
+[0m[[0mdebug[0m] [0m  def gitHash: String = macro gitHash_impl[0m
+[0m[[0mdebug[0m] [0m[0m
+[0m[[0mdebug[0m] [0m  /**[0m
+[0m[[0mdebug[0m] [0m    * A small sealed-trait heirarchy to capture errors while calling out to git[0m
+[0m[[0mdebug[0m] [0m    */[0m
+[0m[[0mdebug[0m] [0m  sealed trait RunGitError[0m
+[0m[[0mdebug[0m] [0m  case class BadExitValue(code: Int) extends RunGitError[0m
+[0m[[0mdebug[0m] [0m  case object UnexpectedGitOutput    extends RunGitError[0m
+[0m[[0mdebug[0m] [0m  case object RuntimeFailure         extends RunGitError[0m
+[0m[[0mdebug[0m] [0m[0m
+[0m[[0mdebug[0m] [0m  /**[0m
+[0m[[0mdebug[0m] [0m    * Small helper to run git commands and process the output[0m
+[0m[[0mdebug[0m] [0m    */[0m
+[0m[[0mdebug[0m] [0m  private def runGit(commands: List[String]): Either[RunGitError, String] = {[0m
+[0m[[0mdebug[0m] [0m    val procDecl = Process(s"git ${commands.mkString(" ")}")[0m
+[0m[[0mdebug[0m] [0m    val output   = procDecl.lineStream[0m
+[0m[[0mdebug[0m] [0m    try {[0m
+[0m[[0mdebug[0m] [0m      val process = procDecl.run()[0m
+[0m[[0mdebug[0m] [0m      if (process.exitValue() == 0) {[0m
+[0m[[0mdebug[0m] [0m        output.toList match {[0m
+[0m[[0mdebug[0m] [0m          case out :: Nil => Right(out)[0m
+[0m[[0mdebug[0m] [0m          case _          => Left(BadExitValue(process.exitValue()))[0m
+[0m[[0mdebug[0m] [0m        }[0m
+[0m[[0mdebug[0m] [0m      } else {[0m
+[0m[[0mdebug[0m] [0m        Left(UnexpectedGitOutput)[0m
+[0m[[0mdebug[0m] [0m      }[0m
+[0m[[0mdebug[0m] [0m    } catch {[0m
+[0m[[0mdebug[0m] [0m      case _: java.io.IOException => Left(RuntimeFailure)[0m
+[0m[[0mdebug[0m] [0m    }[0m
+[0m[[0mdebug[0m] [0m  }[0m
+[0m[[0mdebug[0m] [0m[0m
+[0m[[0mdebug[0m] [0m  def gitHashShort_impl(c: Context): c.Expr[String] = {[0m
+[0m[[0mdebug[0m] [0m    import c.universe._[0m
+[0m[[0mdebug[0m] [0m    import sys.process._[0m
+[0m[[0mdebug[0m] [0m[0m
+[0m[[0mdebug[0m] [0m    val response =[0m
+[0m[[0mdebug[0m] [0m      runGit(List("rev-parse", "--short", "HEAD")) match {[0m
+[0m[[0mdebug[0m] [0m        case Right(r) => r[0m
+[0m[[0mdebug[0m] [0m        case Left(_)  => "UNKNOWN"[0m
+[0m[[0mdebug[0m] [0m      }[0m
+[0m[[0mdebug[0m] [0m    c.Expr(Literal(Constant(response)))[0m
+[0m[[0mdebug[0m] [0m  }[0m
+[0m[[0mdebug[0m] [0m[0m
+[0m[[0mdebug[0m] [0m  def gitHash_impl(c: Context): c.Expr[String] = {[0m
+[0m[[0mdebug[0m] [0m    import c.universe._[0m
+[0m[[0mdebug[0m] [0m    import sys.process._[0m
+[0m[[0mdebug[0m] [0m[0m
+[0m[[0mdebug[0m] [0m    val response = runGit(List("rev-parse", "HEAD")) match {[0m
+[0m[[0mdebug[0m] [0m      case Right(r) => r[0m
+[0m[[0mdebug[0m] [0m      case Left(_)  => "UNKNOWN"[0m
+[0m[[0mdebug[0m] [0m    }[0m
+[0m[[0mdebug[0m] [0m    c.Expr(Literal(Constant(response)))[0m
+[0m[[0mdebug[0m] [0m  }[0m
+[0m[[0mdebug[0m] [0m[0m
+[0m[[0mdebug[0m] [0m}[0m
+[0m[[0mdebug[0m] [0mModified text of file is:[0m
+[0m[[0mdebug[0m] [0mNone[0m
+[0m[[0mdebug[0m] [0mAbout to create/update header for /home/aaronlevin/dev/soundcloud/scala-gitrev/src/main/scala/com/soundcloud/gitrev/test/Foo.scala[0m
+[0m[[0mdebug[0m] [0mFirst line of file is:[0m
+[0m[[0mdebug[0m] [0mText of file is:[0m
+[0m[[0mdebug[0m] [0m/*[0m
+[0m[[0mdebug[0m] [0m * Copyright 2016 aaronlevin[0m
+[0m[[0mdebug[0m] [0m *[0m
+[0m[[0mdebug[0m] [0m * Licensed under the Apache License, Version 2.0 (the "License");[0m
+[0m[[0mdebug[0m] [0m * you may not use this file except in compliance with the License.[0m
+[0m[[0mdebug[0m] [0m * You may obtain a copy of the License at[0m
+[0m[[0mdebug[0m] [0m *[0m
+[0m[[0mdebug[0m] [0m *     http://www.apache.org/licenses/LICENSE-2.0[0m
+[0m[[0mdebug[0m] [0m *[0m
+[0m[[0mdebug[0m] [0m * Unless required by applicable law or agreed to in writing, software[0m
+[0m[[0mdebug[0m] [0m * distributed under the License is distributed on an "AS IS" BASIS,[0m
+[0m[[0mdebug[0m] [0m * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.[0m
+[0m[[0mdebug[0m] [0m * See the License for the specific language governing permissions and[0m
+[0m[[0mdebug[0m] [0m * limitations under the License.[0m
+[0m[[0mdebug[0m] [0m */[0m
+[0m[[0mdebug[0m] [0m[0m
+[0m[[0mdebug[0m] [0mpackage com.soundcloud.gitrev.test[0m
+[0m[[0mdebug[0m] [0mModified text of file is:[0m
+[0m[[0mdebug[0m] [0mNone[0m

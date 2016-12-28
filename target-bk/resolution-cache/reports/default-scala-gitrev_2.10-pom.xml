@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="ivy-report.xsl"?>
+<ivy-report version="1.0">
+	<info
+		organisation="default"
+		module="scala-gitrev_2.10"
+		revision="06f69295103b28836067bcd604a604be0b071577-SNAPSHOT"
+		conf="pom"
+		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool, scalafmt, ensime-internal"
+		date="20161228222137"/>
+	<dependencies>
+	</dependencies>
+</ivy-report>

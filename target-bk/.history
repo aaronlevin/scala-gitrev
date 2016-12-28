@@ -1,0 +1,38 @@
+fresh
+compile
+reload
+compile
+reload
+compile
+clean
+compile
+reload
+compile
+runMain com.soundcloud.gitrev
+compile
+runMain com.soundcloud.gitrev.Foo
+runMain com.soundcloud.gitrev.Foo ""
+compile
+runMain com.soundcloud.gitrev.test.Foo ""
+compile
+runMain com.soundcloud.gitrev.test.Foo ""
+~compile
+console
+reload
+test
+reload
+compile
+test
+clean
+compile
+fresh
+compile
+reload
+compile
+clean
+compile
+reload
+clean
+compile
+reload
+compile
