@@ -15,4 +15,4 @@ you have the legal authority to do so.
 ## License ##
 
 This code is open source software licensed under the
-[MIT](https://opensource.org/licenses/MIT) license.
+[Apache 2.0](http://www.apache.org/licenses/LICENSE-2.0) license.
