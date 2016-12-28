@@ -1,6 +1,32 @@
 # scala-gitrev #
 
-Welcome to scala-gitrev!
+Welcome to `scala-gitrev`! Inspired by the [gitrev](https://hackage.haskell.org/package/gitrev) haskell library, **scala-gitrev** provides some simple macros that will capture git information at compile time. This will empower you to bundle compile-time git-info with your artifacts, which can be extremely useful for debugging.
+
+To use `scala-gitrev` in your scala project with SBT, simply add the following line to your `build.sbt` file:
+
+```scala
+libraryDependencies += "com.soundcloud" %% "gitrev" % "0.1.0"
+```
+
+Example usage:
+
+```scala
+object MyCoolProject {
+
+  import com.soundcloud.gitrev.gitHash
+
+  val theGitHash: String = githash
+
+  // ... other super cool code ...
+
+  def main(args: Array[String]): Unit = {
+
+    println(s"This artifact was compiled at revision $theGitHash")
+
+    // ... do super cool stuff ...
+  }
+}
+```
 
 ## Contribution policy ##
 
