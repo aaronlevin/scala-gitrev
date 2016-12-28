@@ -19,7 +19,6 @@ package com.soundcloud
 import macrocompat.bundle
 import scala.language.experimental.macros
 import scala.reflect.macros.whitebox
-import scala.sys.process.Process
 
 package object gitrev {
 
@@ -31,30 +30,10 @@ package object gitrev {
   case object UnexpectedGitOutput    extends RunGitError
   case object RuntimeFailure         extends RunGitError
 
-  /**
-    * Small helper to run git commands and process the output
-    */
-  private def runGit(commands: List[String]): Either[RunGitError, String] = {
-    val procDecl = Process(s"git ${commands.mkString(" ")}")
-    val output   = procDecl.lineStream
-    try {
-      val process = procDecl.run()
-      if (process.exitValue() == 0) {
-        output.toList match {
-          case out :: Nil => Right(out)
-          case _          => Left(BadExitValue(process.exitValue()))
-        }
-      } else {
-        Left(UnexpectedGitOutput)
-      }
-    } catch {
-      case _: java.io.IOException => Left(RuntimeFailure)
-    }
-  }
-
   @bundle // macro-compat addition
   class GitRevMacro(val c: whitebox.Context) {
     import c.universe._
+    import com.soundcloud.gitrev.RunGit.runGit
 
     def gitHash_impl: Tree = {
       val response = runGit(List("rev-parse", "HEAD")) match {

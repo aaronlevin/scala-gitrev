@@ -48,7 +48,7 @@ lazy val settings =
 
 lazy val commonSettings =
   Seq(
-    scalaVersion := "2.11.8",
+    scalaVersion := "2.12.1",
     crossScalaVersions := Seq(scalaVersion.value, "2.11.8", "2.10.6"),
     organization := "default",
     licenses += ("Apache 2.0",
@@ -68,6 +68,11 @@ lazy val commonSettings =
     ),
     unmanagedSourceDirectories.in(Compile) :=
       Seq(scalaSource.in(Compile).value),
+    // include scala_2.x directories for cross-compilation
+    unmanagedSourceDirectories.in(Compile) := Seq(
+      scalaSource.in(Compile).value,
+      sourceDirectory.in(Compile).value / ("scala_" + scalaBinaryVersion.value)
+    ),
     unmanagedSourceDirectories.in(Test) :=
       Seq(scalaSource.in(Test).value)
 )
