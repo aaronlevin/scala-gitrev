@@ -1,3 +1,5 @@
+# !! WARNING: THIS IS NOT PUBLIC YET !! #
+
 # scala-gitrev #
 
 Welcome to `scala-gitrev`! Inspired by the [gitrev](https://hackage.haskell.org/package/gitrev) haskell library, **scala-gitrev** provides some simple macros that will capture git information at compile time. This will empower you to bundle compile-time git-info with your artifacts, which can be extremely useful for debugging.
@@ -15,7 +17,7 @@ object MyCoolProject {
 
   import com.soundcloud.gitrev.gitHash
 
-  val theGitHash: String = githash
+  val theGitHash: String = gitHash
 
   // ... other super cool code ...
 
