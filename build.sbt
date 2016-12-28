@@ -9,6 +9,9 @@ lazy val `scala-gitrev` =
     .settings(settings)
     .settings(
       libraryDependencies ++= Seq(
+        "org.typelevel" %% "macro-compat" % "1.1.1",
+        "org.scala-lang" % "scala-compiler" % scalaVersion.value % "provided",
+        compilerPlugin("org.scalamacros" % "paradise" % "2.1.0" cross CrossVersion.full),
         library.scalaCheck % Test,
         library.scalaTest  % Test
       )
@@ -32,6 +35,11 @@ lazy val library =
 // Settings
 // *****************************************************************************        |
 
+resolvers ++= Seq(
+    Resolver.sonatypeRepo("releases"),
+      Resolver.sonatypeRepo("snapshots")
+    )
+
 lazy val settings =
   commonSettings ++
   scalafmtSettings ++
@@ -40,8 +48,8 @@ lazy val settings =
 
 lazy val commonSettings =
   Seq(
-    scalaVersion := "2.12.1",
-    crossScalaVersions := Seq(scalaVersion.value, "2.11.8"),
+    scalaVersion := "2.11.8",
+    crossScalaVersions := Seq(scalaVersion.value, "2.11.8", "2.10.6"),
     organization := "default",
     licenses += ("Apache 2.0",
                  url("http://www.apache.org/licenses/LICENSE-2.0")),
@@ -51,7 +59,7 @@ lazy val commonSettings =
       "-unchecked",
       "-deprecation",
       "-language:_",
-      "-target:jvm-1.8",
+      //"-target:jvm-1.8",
       "-encoding", "UTF-8"
     ),
     javacOptions ++= Seq(
