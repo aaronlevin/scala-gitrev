@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.soundcloud
+package ca.aaronlevin
 
 import macrocompat.bundle
 import scala.language.experimental.macros
@@ -33,7 +33,7 @@ package object gitrev {
   @bundle // macro-compat addition
   class GitRevMacro(val c: whitebox.Context) {
     import c.universe._
-    import com.soundcloud.gitrev.RunGit.runGit
+    import ca.aaronlevin.gitrev.RunGit.runGit
 
     def gitHash_impl: Tree = {
       val response = runGit(List("rev-parse", "HEAD")) match {

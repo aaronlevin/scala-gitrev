@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package com.soundcloud.gitrev
+package ca.aaronlevin.gitrev
 
-import sys.process.Process
+import scala.sys.process.Process
 
 /**
   * between Scala 2.10 and 2.11 the Process API changed. This small
@@ -29,7 +29,7 @@ object RunGit {
     */
   def runGit(commands: List[String]): Either[RunGitError, String] = {
     val procDecl = Process(s"git ${commands.mkString(" ")}")
-    val output   = procDecl.lineStream
+    val output   = procDecl.lines
     try {
       val process = procDecl.run()
       if (process.exitValue() == 0) {

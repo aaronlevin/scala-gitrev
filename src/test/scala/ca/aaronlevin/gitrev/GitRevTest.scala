@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.soundcloud.gitrev
+package ca.aaronlevin.gitrev
 import org.scalatest._
 import scala.sys.process._
 

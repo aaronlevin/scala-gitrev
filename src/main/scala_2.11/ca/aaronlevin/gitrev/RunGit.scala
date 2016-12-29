@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.soundcloud.gitrev
+package ca.aaronlevin.gitrev
 
 import sys.process.Process
 
