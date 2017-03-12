@@ -37,8 +37,42 @@ lazy val library =
 
 resolvers ++= Seq(
     Resolver.sonatypeRepo("releases"),
+    Resolver.sonatypeRepo("public"),
       Resolver.sonatypeRepo("snapshots")
     )
+
+publishTo := {
+  val nexus = "https://oss.sonatype.org/"
+    Some("releases"  at nexus + "service/local/staging/deploy/maven2")
+
+    /*
+  if (isSnapshot.value)
+    Some("snapshots" at nexus + "content/repositories/snapshots")
+  else
+    Some("releases"  at nexus + "service/local/staging/deploy/maven2")
+  */
+}
+
+publishArtifact in Test := false
+
+pomIncludeRepository := { _ => false }
+
+publishMavenStyle := true
+
+pomExtra := (
+  <url>https://github.com/aaronlevin/scala-gitrev</url>
+  <scm>
+    <connection>scm:git:git@github.com:aaronlevin/scala-gitrev.git</connection>
+    <url>git@github.com:aaronlevin/scala-gitrev.git</url>
+  </scm>
+  <developers>
+    <developer>
+      <id>aaronlevin</id>
+      <name>Aaron Levin</name>
+      <url>aaronlevin.ca</url>
+    </developer>
+  </developers>
+  )
 
 lazy val settings =
   commonSettings ++
@@ -50,7 +84,8 @@ lazy val commonSettings =
   Seq(
     scalaVersion := "2.12.1",
     crossScalaVersions := Seq(scalaVersion.value, "2.11.8", "2.10.6"),
-    organization := "default",
+    organization := "ca.aaronlevin",
+    version := "0.1.0",
     licenses += ("Apache 2.0",
                  url("http://www.apache.org/licenses/LICENSE-2.0")),
     mappings.in(Compile, packageBin) +=
