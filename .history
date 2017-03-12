@@ -1,1 +1,9 @@
-fresh
+0.1.1
+=====
+
+Minor revision to fix output redirection (https://github.com/aaronlevin/scala-gitrev/issues/2).
+
+0.1.0
+=====
+
+Initial release.
