@@ -5,7 +5,7 @@ Welcome to `scala-gitrev`! Inspired by the [gitrev](https://hackage.haskell.org/
 To use `scala-gitrev` in your scala project with SBT, simply add the following line to your `build.sbt` file:
 
 ```scala
-libraryDependencies += "ca.aaronlevin" %% "scala-gitrev" % "0.1.0"
+libraryDependencies += "ca.aaronlevin" %% "scala-gitrev" % "0.1.1"
 ```
 
 Example usage:
