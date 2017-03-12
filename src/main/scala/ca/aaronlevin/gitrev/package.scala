@@ -1,3 +1,19 @@
+/*
+ * Copyright 2016 aaronlevin
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *     http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+
 package ca.aaronlevin
 
 import macrocompat.bundle
@@ -7,7 +23,7 @@ import scala.reflect.macros.whitebox
 package object gitrev {
 
   /**
-    * A small sealed-trait heirarchy to capture errors while calling out to git
+    * A small sealed-trait hierarchy to capture errors while calling out to git
     */
   sealed trait RunGitError
   case class BadExitValue(code: Int) extends RunGitError
@@ -39,12 +55,16 @@ package object gitrev {
   }
 
   /**
-    * a Macro to produce the shortened git hash
+    * A Macro to produce the shortened git hash (via `git rev-parse --short HEAD`)
+    * @return a String containing the shortened git hash (or 'UNKNOWN' if a failure
+    *         is encountered)
     */
   def gitHashShort: String = macro GitRevMacro.gitHashShort_impl
 
   /**
-    * a Macro to produce the full git hash
+    * A Macro to produce the full git hash (via `git rev-parse HEAD`)
+    * @return a String containing the full git hash (or 'UNKNOWN' if a failure
+    *         is encountered)
     */
   def gitHash: String = macro GitRevMacro.gitHash_impl
 

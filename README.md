@@ -1,13 +1,11 @@
-# !! WARNING: THIS IS NOT PUBLIC YET !! #
-
 # scala-gitrev #
 
-Welcome to `scala-gitrev`! Inspired by the [gitrev](https://hackage.haskell.org/package/gitrev) haskell library, **scala-gitrev** provides some simple macros that will capture git information at compile time. This will empower you to bundle compile-time git-info with your artifacts, which can be extremely useful for debugging.
+Welcome to `scala-gitrev`! Inspired by the [gitrev](https://hackage.haskell.org/package/gitrev) haskell library, **scala-gitrev** provides simple macros to capture git information at compile time. This will empower you to bundle compile-time git-info with your artifacts, which can be extremely useful for debugging.
 
 To use `scala-gitrev` in your scala project with SBT, simply add the following line to your `build.sbt` file:
 
 ```scala
-libraryDependencies += "ca.aaronlevin" %% "gitrev" % "0.1.0"
+libraryDependencies += "ca.aaronlevin" %% "scala-gitrev" % "0.1.0"
 ```
 
 Example usage:
