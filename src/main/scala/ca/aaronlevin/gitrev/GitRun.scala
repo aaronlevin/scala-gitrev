@@ -16,7 +16,7 @@
 
 package ca.aaronlevin.gitrev
 
-import sys.process.Process
+import sys.process.{ Process, ProcessLogger }
 
 /**
   * between Scala 2.10 and 2.11 the Process API changed. This small
@@ -31,12 +31,14 @@ object RunGit {
     * @return Either an error or a string containing the output from stdout.
     */
   def runGit(command: List[String]): Either[RunGitError, String] = {
-    val procDecl = Process(s"git ${command.mkString(" ")}")
-    val output   = procDecl.lineStream
+    val procDecl             = Process(s"git ${command.mkString(" ")}")
+    var output: List[String] = Nil
     try {
-      val process = procDecl.run()
+      val process =
+        procDecl.run(
+          ProcessLogger(o => output = o.split("\n").toList, _ => Unit))
       if (process.exitValue() == 0) {
-        output.toList match {
+        output match {
           case out :: Nil => Right(out)
           case _          => Left(BadExitValue(process.exitValue()))
         }
